@@ -1,5 +1,5 @@
 doctype html
-html(lang="fr")
+html(lang="fr", ng-app="jesuis")
   head
     meta(charset="utf-8")
     meta(http-equiv="X-UA-Compatible", content="IE=edge")
@@ -8,21 +8,12 @@ html(lang="fr")
     title Retrospective Ouest France
     link(rel="stylesheet", href="https://unpkg.com/purecss@0.6.1/build/pure-min.css")
     link(rel="stylesheet" href="https://unpkg.com/purecss@0.6.1/build/grids-responsive-min.css")
-
     link(rel="stylesheet", href="main.css")
-  body
-    video#bgvid(autoplay=true, muted=true, loop=true, poster="https://s3-us-west-2.amazonaws.com/s.cdpn.io/4273/polina.jpg")
-      source(src="http://thenewcode.com/assets/videos/polina.webm" type="video/webm")
-      source(src="http://thenewcode.com/assets/videos/polina.mp4" type="video/mp4")
 
-    .wrapper.init
-      a(href="#" onClick="screenfull.request()") Lancer la rétrospective
-    .pure-g.wrapper
-      .pure-u-1
-        p Pug - node template engine bb
-        p.
-          Pug is a terse and simple templating language with a
-          strong focus on performance and powerful features.
-    script(src='https://ajax.googleapis.com/ajax/libs/angularjs/1.5.6/angular.min.js')
+    script(src='https://ajax.googleapis.com/ajax/libs/angularjs/1.5.8/angular.min.js')
+    script(src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.8/angular-route.min.js")
     script(src="screenfull.min.js")
     script(src="main.js")
+  body
+    div(ng-view=true)
+

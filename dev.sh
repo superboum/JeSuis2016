@@ -1,2 +1,2 @@
 #!/bin/bash
-pug -w template/ -o static/
+pug -P -w template/ -o static/
