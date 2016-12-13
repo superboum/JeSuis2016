@@ -1,19 +1,22 @@
 doctype html
 html(lang="fr")
   head
+    meta(charset="utf-8")
+    meta(http-equiv="X-UA-Compatible", content="IE=edge")
+    meta(name="viewport", content="width=device-width, initial-scale=1")
+
     title Retrospective Ouest France
+    link(rel="stylesheet", href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css", integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u", crossorigin="anonymous")
     link(rel="stylesheet", href="main.css")
   body
     video(autoplay=true, loop=true, poster="https://s3-us-west-2.amazonaws.com/s.cdpn.io/4273/polina.jpg", id="bgvid")
       source(src="http://thenewcode.com/assets/videos/polina.webm" type="video/webm")
       source(src="http://thenewcode.com/assets/videos/polina.mp4" type="video/mp4")
 
-    h1 Pug - node template engine bb
-    #container.col
-      if youAreUsingPug
-        p You are amazing a
-      else
-        p Get on it!
-      p.
-        Pug is a terse and simple templating language with a
-        strong focus on performance and powerful features.
+    .container-fluid
+      .row
+        .col-md-12
+          h1 Pug - node template engine bb
+          p.
+            Pug is a terse and simple templating language with a
+            strong focus on performance and powerful features.
