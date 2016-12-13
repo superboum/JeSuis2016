@@ -1,0 +1,19 @@
+doctype html
+html(lang="fr")
+  head
+    title Retrospective Ouest France
+    link(rel="stylesheet", href="main.css")
+  body
+    video(autoplay=true, loop=true, poster="https://s3-us-west-2.amazonaws.com/s.cdpn.io/4273/polina.jpg", id="bgvid")
+      source(src="http://thenewcode.com/assets/videos/polina.webm" type="video/webm")
+      source(src="http://thenewcode.com/assets/videos/polina.mp4" type="video/mp4")
+
+    h1 Pug - node template engine bb
+    #container.col
+      if youAreUsingPug
+        p You are amazing a
+      else
+        p Get on it!
+      p.
+        Pug is a terse and simple templating language with a
+        strong focus on performance and powerful features.
