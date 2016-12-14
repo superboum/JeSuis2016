@@ -1,14 +1,21 @@
-mixin board
+mixin board(position)
   .pure-g
     .pure-u-2-3
       .space
         h1 {{ elem.article.title }}
         p {{ elem.article.text }}
-        a(href="", ng-click="next($index*2+1)") Next
+        if position == "top"
+          a(href="", ng-click="next($index*2+2)") Next
+        else
+          a(href="", ng-click="next($index*2+1)") Next
     .pure-u-1-3
       .space(style="width: 80%;")
         h3 {{ elem.question.ask }}
-  .anchor_hack(id="event-{{ $index * 2}}")
+        a(href="" ng-repeat="answer in elem.question.answers" style="display: block") {{ answer.text }}
+  if position == "top"
+    .anchor_hack(id="event-{{ $index * 2 + 1}}")
+  else
+    .anchor_hack(id="event-{{ $index * 2}}")
   .placeholder
     .circle
       .text {{elem.article.date}} 
@@ -28,9 +35,9 @@ video#bgvid(ng-repeat="elem in content" ng-show="$index == selected_content" aut
         h1 Les grands évènements Ouest France
         h2 Avez vous bien suivi l'actualité ?
     .event.large.top(ng-repeat="elem in content_top" )
-      +board
+      +board("top")
 
   div(style="display:flex; height: 50%; width: auto")
     .event.large.bottom(ng-repeat="elem in content_bottom")
-      +board
+      +board("bottom")
 
