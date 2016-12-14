@@ -71,6 +71,18 @@ html, body, .view {
   left:-37px;
 }
 
+.top .placeholder_date{
+  position : absolute;
+  top:37px;
+  left:-37px;
+}
+
+.bottom .placeholder_date{
+  position : absolute;
+  bottom:37px;
+  left:-37px;
+}
+
 .circle{
   position : relative;
   height:75px;
@@ -79,11 +91,11 @@ html, body, .view {
   z-index: 100;
 }
 
-.top .placeholder  .circle{
+.top   .circle{
   background-color: rgb(255,0,26);
 }
 
-.bottom .placeholder .circle{
+.bottom  .circle{
   background-color: rgb(102,102,102);
 }
 
