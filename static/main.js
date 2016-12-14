@@ -15,9 +15,9 @@ var app = angular.module('jesuis', ['ngRoute'])
   }])
  .controller('InitController', ['$scope', '$location', function($scope, $location) {
    console.log("init-controller");
-   $scope.start = function() { 
+   $scope.start = function() {
      screenfull.request();
-     $location.path('/event'); 
+     $location.path('/event');
    };
  }])
  .controller('EventController', ['$scope', '$location', function($scope, $location) {
