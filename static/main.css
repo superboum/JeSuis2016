@@ -118,12 +118,33 @@ html, body, .view {
   z-index: 100;
 }
 
+
+
 .top   .circle{
   background-color: rgb(255,0,26);
 }
 
 .bottom  .circle{
   background-color: rgb(102,102,102);
+}
+
+.circle.small{
+  height:10px;
+  width:10px;
+  background-color: #aaa;
+}
+
+.top  .circle.small{
+  position : absolute;
+  bottom: -25px;
+  left:32px;
+}
+
+.bottom  .circle.small{
+  position : absolute;
+  top: -27px;
+  left:32px;
+
 }
 
 /* arcs in around circles*/
@@ -165,6 +186,13 @@ html, body, .view {
   transform: rotate(180deg) skewX(0deg);
 }
 
+.top .placeholder_date .circle .arc{
+  transform: rotate(90deg) skewX(0deg)
+}
+
+.bottom .placeholder_date .circle .arc{
+  transform: rotate(180deg) skewX(0deg)
+}
 
 /* text in circles */
 .circle .text{
@@ -175,11 +203,18 @@ html, body, .view {
 
 /* Ligne border */
 
-.event .vertical_line{
+.event.top .vertical_line{
+  border-left: 2px solid #aaa;
+  position: absolute;
+  top: 130px;
+  bottom: 59px;
+}
+
+.event.bottom .vertical_line{
   border-left: 2px solid #aaa;
   position: absolute;
   top: 59px;
-  bottom: 59px;
+  bottom: 130px;
 }
 
 .horizontal_line{
@@ -187,18 +222,18 @@ html, body, .view {
 }
 
 .event.bottom .horizontal_line{
+  position:absolute;
   border-top :2px solid #aaa;
-  top :0.1px;
-  left: 59px;
-  right: 55.3%;
-
+  top :0px;
+  left: 56px;
+  right: 150vh;
 }
 .event.top .horizontal_line{
   border-bottom: 2px solid #aaa;
+  position:absolute;
   bottom :0px;
-  left: 59px;
-  right: 55.3%;
-
+  left: 56px;
+  right: 596px;
 }
 
 

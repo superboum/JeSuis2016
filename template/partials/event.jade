@@ -19,15 +19,18 @@ mixin board(position)
   else
     .anchor_hack(id="event-{{ $index * 2}}")
   .vertical_line
-  .horizontal_line
+  
   .placeholder_date
     .circle
       .text {{elem.article.date}}
+      .arc
+    .circle.small
 
   .placeholder
     .circle
       .arc
       .arc.secondarc
+    .circle.small
 
 
 video#bgvid(ng-repeat="elem in content" ng-show="$index == selected_content" autoplay=true, muted=true, loop=true, poster="{{ elem.article.video.png }}")
@@ -43,7 +46,9 @@ video#bgvid(ng-repeat="elem in content" ng-show="$index == selected_content" aut
         h2 Avez vous bien suivi l'actualité ?
     .event.large.top(ng-repeat="elem in content_top" )
       +board("top")
+      
 
   div(style="display:flex; height: 50%; width: auto")
     .event.large.bottom(ng-repeat="elem in content_bottom")
       +board("bottom")
+      
