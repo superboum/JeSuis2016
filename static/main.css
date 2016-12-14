@@ -126,11 +126,20 @@ html, body, .view {
   transform: rotate(180deg) skewX(0deg);
 }
 
+
 /* text in circles */
 .circle .text{
   top: 27px;
   left: 14px;
   position:absolute;
+}
+
+
+.anchor_hack {
+  float: right;
+  height: 1px;
+  width: 1px;
+  margin-right: -30px;
 }
 
 

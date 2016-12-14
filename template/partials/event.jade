@@ -14,7 +14,7 @@ video#bgvid(ng-repeat="elem in content" ng-show="$index == selected_content" aut
         h1 {{ elem.article.title }}
         p {{ elem.article.text }}
         a(href="", ng-click="next($index*2+2)") Next
-        div(style="float: right; height: 1px; width: 1px;" id="event-{{ $index * 2 + 1}}")
+        .anchor_hack(id="event-{{ $index * 2 + 1}}")
       .placeholder
         .circle
           .text {{elem.article.date}} 
@@ -27,7 +27,7 @@ video#bgvid(ng-repeat="elem in content" ng-show="$index == selected_content" aut
         h1 {{ elem.article.title }}
         p {{ elem.article.text }}
         a(href="", ng-click="next($index*2+1)") Next
-        div(style="float: right; height: 1px; width: 1px;" id="event-{{ $index * 2}}")
+        .anchor_hack(id="event-{{ $index * 2}}")
       .placeholder
         .circle
           .text {{elem.article.date}} 
