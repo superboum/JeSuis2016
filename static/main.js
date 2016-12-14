@@ -57,7 +57,7 @@ var app = angular.module('jesuis', ['ngRoute'])
     var loaded = $interval(function() {
       try { $scope.next(0); $interval.cancel(loaded); }
       catch (e) { console.log("waiting..."); }
-    });
+    },500);
   }])
 ;
 
