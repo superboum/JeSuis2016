@@ -1,6 +1,7 @@
 html, body, .view {
   height: 100%;
   margin: 0px; padding: 0px;
+  overflow-y: hidden;
 }
 
 .wrapper {
@@ -279,10 +280,9 @@ html, body, .view {
 
 /*Gitanerie de Quentin*/
 .anchor_hack {
-  float: right;
   height: 1px;
   width: 1px;
-  margin-right: -30px;
+  margin-left: 100%;
 }
 
 

@@ -1,4 +1,8 @@
 mixin board(position)
+  if position == "top"
+    .anchor_hack(id="event-{{ $index * 2 + 1}}")
+  else
+    .anchor_hack(id="event-{{ $index * 2}}")
   .pure-g.inside(ng-class=position == "top" ? "{activated: $index*2+1==selected_content}":"{activated: $index*2==selected_content}")
     .pure-u-2-3
       .space
@@ -23,10 +27,6 @@ mixin board(position)
         else 
           a.choice(ng-click="next($index*2+1)" href="") Suivant
 
-  if position == "top"
-    .anchor_hack(id="event-{{ $index * 2 + 1}}")
-  else
-    .anchor_hack(id="event-{{ $index * 2}}")
   .vertical_line
   .horizontal_line
     .triangle
