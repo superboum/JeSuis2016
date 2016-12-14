@@ -1,6 +1,7 @@
-video#bgvid(autoplay=true, muted=true, loop=true, poster="https://s3-us-west-2.amazonaws.com/s.cdpn.io/4273/polina.jpg")
-  source(src="video/David_Bowie_Heroes.mkv.webm" type="video/webm")
-  source(src="video/David_Bowie_Heroes.mkv.mp4" type="video/mp4")
+video#bgvid(autoplay=true, muted=true, loop=true, poster="{{ content[selected_content].article.video.png }}" controls="")
+  source(src="{{ content[selected_content].article.video.webm | trustUrl }}" type="video/webm" )
+  source(src="{{ content[selected_content].article.video.mp4 | trustUrl  }}" type="video/mp4" )
+
 
 .wrapper(style="width: auto;")
   div(style="display:flex; height: 50%; width: auto;")
@@ -14,10 +15,9 @@ video#bgvid(autoplay=true, muted=true, loop=true, poster="https://s3-us-west-2.a
       .space(style="width: auto")
         h1 Event 4
   div(style="display:flex; height: 50%; width: auto")
-    .event.large.bottom
+    .event.large.bottom(ng-repeat="elem in content")
       .space(style="width: auto;")
-        h1 Event 1
-    .event.large.bottom
-      .space(style="width: auto;")
-        h1 Event 3
+        h1 {{ elem.article.title }}
+        p {{ elem.article.text }}
+        a(href="", ng-click="next()") Next
     .event.small
