@@ -1,44 +1,3 @@
-var content = [
-  {
-    article: {
-      title: "Bowie",
-      date: "16/02",
-      text: "RT si t'es triste",
-      video: {
-        webm: "./video/David_Bowie_Heroes.mkv.webm",
-        mp4: "./video/David_Bowie_Heroes.mkv.mp4",
-        png: "./video/David_Bowie_Heroes.mkv.png",
-      }
-    },
-    question: {
-      ask: "Nombre d'enfants",
-      answers: [
-        { text: "3", win: true},
-        { text: "26", win: false}
-      ]
-    }
-  },
-  {
-    article: {
-      title: "Loi travail",
-      date: "16/02",
-      text: "Travailler plus pour gagner plus",
-      video: {
-        webm: "./video/polina.webm",
-        mp4: "./video/polina.mp4",
-        png: "./video/David_Bowie_Heroes.mkv.png",
-      }
-    },
-    question: {
-      ask: "Nombre d'enfants",
-      answers: [
-        { text: "3", win: true},
-        { text: "26", win: false}
-      ]
-    }
-  },
-];
-
 var app = angular.module('jesuis', ['ngRoute'])
   .config(['$routeProvider', function($routeProvider) {
     $routeProvider
@@ -48,7 +7,8 @@ var app = angular.module('jesuis', ['ngRoute'])
       })
       .when('/event', {
         templateUrl: 'partials/event.html',
-        controller: 'EventController'
+        controller: 'EventController',
+        reloadOnSearch: false
       })
       .otherwise({
         redirectTo: '/init'
@@ -76,14 +36,16 @@ var app = angular.module('jesuis', ['ngRoute'])
    };
  }])
 
- .controller('EventController', ['$scope', '$location', function($scope, $location) {
+ .controller('EventController', ['$scope', '$location', '$anchorScroll', function($scope, $location, $anchorScroll) {
    console.log("event-controller");
    $scope.selected_content = 0;
-   $scope.content = content;
-   $scope.content_top = content.filter(function(element, index) {  return index % 2 == 1; });
-   $scope.content_bottom = content.filter(function(element, index) {  return index % 2 == 0; });
-   $scope.next = function() {
-     $scope.selected_content = ($scope.selected_content + 1) % content.length;
+   $scope.content = window.content;
+   $scope.content_top = window.content.filter(function(element, index) {  return index % 2 == 1; });
+   $scope.content_bottom = window.content.filter(function(element, index) {  return index % 2 == 0; });
+   $scope.next = function(id) {
+     $scope.selected_content = id;
+     $location.hash("event-"+$scope.selected_content);
+     $anchorScroll();
    };
  }])
 ;

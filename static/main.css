@@ -50,13 +50,11 @@ html, body, .view {
 }
 
 .event.top {
-  border-bottom: 1px solid #fff;
-  border-left: 1px solid #fff;
+  border-left: 2px solid #aaa;
 }
 
 .event.bottom {
-  border-top: 1px solid #fff;
-  border-right: 1px solid #fff;
+  border-left: 2px solid #aaa;
 }
 
 /* Circle */
