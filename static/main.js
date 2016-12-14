@@ -5,9 +5,9 @@ var content = [
       date: "16/02",
       text: "RT si t'es triste",
       video: {
-        webm: "/video/David_Bowie_Heroes.mkv.webm",
-        mp4: "/video/David_Bowie_Heroes.mkv.mp4",
-        png: "/video/David_Bowie_Heroes.mkv.png",
+        webm: "./video/David_Bowie_Heroes.mkv.webm",
+        mp4: "./video/David_Bowie_Heroes.mkv.mp4",
+        png: "./video/David_Bowie_Heroes.mkv.png",
       }
     },
     question: {
@@ -24,9 +24,9 @@ var content = [
       date: "16/02",
       text: "Travailler plus pour gagner plus",
       video: {
-        webm: "/video/polina.webm",
-        mp4: "/video/polina.mp4",
-        png: "/video/David_Bowie_Heroes.mkv.png",
+        webm: "./video/polina.webm",
+        mp4: "./video/polina.mp4",
+        png: "./video/David_Bowie_Heroes.mkv.png",
       }
     },
     question: {
@@ -64,7 +64,14 @@ var app = angular.module('jesuis', ['ngRoute'])
  .controller('InitController', ['$scope', '$location', function($scope, $location) {
    console.log("init-controller");
    $scope.start = function() {
-     screenfull.request();
+     var elem = document.documentElement;
+     if (elem.requestFullscreen) {
+         elem.requestFullscreen();
+     } else if (elem.mozRequestFullScreen) {
+         elem.mozRequestFullScreen();
+     } else if (elem.webkitRequestFullscreen) {
+         elem.webkitRequestFullscreen();
+     }
      $location.path('/event');
    };
  }])
