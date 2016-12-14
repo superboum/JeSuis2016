@@ -115,6 +115,25 @@ window.content = [
   },
   {
     article: {
+      title: "Un dixième français à la conquête de l'espace",
+      date: "17/11",
+      text: "Après sept années de préparation, Thomas Pesquet a décollé le 17 novembre du Kazakhstan pour effectuer une mission spatiale de six mois, réalisant ainsi « un rêve de gosse ». En franchissant la barre des 100 km d'altitude, il est devenu le 10e astronaute français mais également le plus jeune astronaute européen. Lors de cette mission Proxima, il mènera une soixantaine d'expériences scientifiques pour le compte de l'Agence spatiale européenne et du CNES.",
+      video: {
+        webm: "./video/polina.webm",
+        mp4: "./video/polina.mp4",
+        png: "./video/David_Bowie_Heroes.mkv.png",
+      }
+    },
+    question: {
+      ask: "Quel a été le 1er astronaute français à partir dans l'espace ?",
+      answers: [
+        { text: "Patrick Baudry", win: false},
+        { text: "Jean-Loup Chrétien", win: true}
+      ]
+    }
+  },
+  {
+    article: {
       title: "La revanche du  « collaborateur » ",
       date: "27/11",
       text: "François Fillon est le grand vainqueur de la primaire ouverte de la droite et du centre. Les débats télévisés ont permis à l’ancien Premier ministre et adversaire malheureux à l’élection de la présidence de l’UMP de se distinguer du duel entre Alain Juppé et Nicolas Sarkozy. Le député de Paris a remporté 66,5% des voix au second tour du scrutin contre 33,5% pour Juppé. Le maire de Bordeaux était pourtant le favori de l’élection, devant Sarkozy.",
