@@ -1,5 +1,5 @@
 window.content = [
-  {
+/*  {
     article: {
       title: "Bowie",
       date: "16/02",
@@ -74,6 +74,25 @@ window.content = [
         { text: "26", win: false}
       ]
     }
+  }, */
+  {
+    article: {
+      title: "La nuit où le président Erdogan a failli tomber",
+      date: "15/07",
+      text: "Dans la nuit du vendredi 15 au samedi 16 juillet, un coup d’État militaire en Turquie est lancé avant d’avorter quelques heures plus tard. La République turque a connu trois autres putschs de l’armée en 1960, 1971 et 1980 mais c’est le premier échec. L’opération fait plus de 290 morts. Fethullah Gülen, exilé aux Etats-Unis serait le président Recep Tayyip Erdogan, le responsable du putsch. L’Etat d’urgence ainsi qu’une vaste purge dans l’enseignement, les médias et différentes administrations ont suivis.",
+      video: {
+        webm: "./video/polina.webm",
+        mp4: "./video/polina.mp4",
+        png: "./video/David_Bowie_Heroes.mkv.png",
+      }
+    },
+    question: {
+      ask: "Qui est l’actuel Premier ministre turc ?",
+      answers: [
+        { text: "Ahmet Davutoglu", win: false},
+        { text: "Binali Yildirim", win: true},
+      ]
+    }
   },
   {
     article: {
@@ -94,5 +113,23 @@ window.content = [
       ]
     }
   },
-
+  {
+    article: {
+      title: "La revanche du  « collaborateur » ",
+      date: "27/11",
+      text: "François Fillon est le grand vainqueur de la primaire ouverte de la droite et du centre. Les débats télévisés ont permis à l’ancien Premier ministre et adversaire malheureux à l’élection de la présidence de l’UMP de se distinguer du duel entre Alain Juppé et Nicolas Sarkozy. Le député de Paris a remporté 66,5% des voix au second tour du scrutin contre 33,5% pour Juppé. Le maire de Bordeaux était pourtant le favori de l’élection, devant Sarkozy.",
+      video: {
+        webm: "./video/polina.webm",
+        mp4: "./video/polina.mp4",
+        png: "./video/David_Bowie_Heroes.mkv.png",
+      }
+    },
+    question: {
+      ask: "Combien d’électeurs se sont déplacés pour voter au second tour ?",
+      answers: [
+        { text: "4,38 millions", win: true},
+        { text: "4,29 millions", win: false}
+      ]
+    }
+  },
 ];
