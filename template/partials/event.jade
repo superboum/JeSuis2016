@@ -17,6 +17,7 @@ video#bgvid(ng-repeat="elem in content" ng-show="$index == selected_content" aut
         div(style="float: right; height: 1px; width: 1px;" id="event-{{ $index * 2 + 1}}")
       .placeholder
         .circle
+          .text {{elem.article.date}} 
           .arc
           .arc.secondarc
 
@@ -29,5 +30,6 @@ video#bgvid(ng-repeat="elem in content" ng-show="$index == selected_content" aut
         div(style="float: right; height: 1px; width: 1px;" id="event-{{ $index * 2}}")
       .placeholder
         .circle
+          .text {{elem.article.date}} 
           .arc
           .arc.secondarc
