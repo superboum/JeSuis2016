@@ -43,16 +43,20 @@ var app = angular.module('jesuis', ['ngRoute'])
     $scope.content_top = window.content.filter(function(element, index) {  return index % 2 == 1; });
     $scope.content_bottom = window.content.filter(function(element, index) {  return index % 2 == 0; });
     $scope.next = function(id) {
-      var selectedVideo = document.getElementById("video-"+id);
+      if (id >= window.content.length) return;
 
+      var selectedVideo = document.getElementById("video-"+id);
       window.content.forEach(function(elem, index) {
-        var video = document.getElementById("video-"+index);
-        video.pause();
+        if (index != id) {
+          var video = document.getElementById("video-"+index);
+          video.pause();
+        }
       });
-      selectedVideo.play();
+
       $scope.selected_content = id;
       $location.hash("event-"+$scope.selected_content);
       $anchorScroll();
+      selectedVideo.play();
     };
     var loaded = $interval(function() {
       try { $scope.next(0); $interval.cancel(loaded); }
