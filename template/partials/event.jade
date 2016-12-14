@@ -33,7 +33,7 @@ mixin board(position)
     .circle.small
 
 
-video#bgvid(ng-repeat="elem in content" ng-show="$index == selected_content" autoplay=true, muted=true, loop=true, poster="{{ elem.article.video.png }}")
+video.bgvid(ng-repeat="elem in content" ng-show="$index == selected_content", muted=true, loop=true, poster="{{ elem.article.video.png }}", id="video-{{ $index }}")
   source(ng-src="{{ elem.article.video.webm }}" type="video/webm" )
   source(ng-src="{{ elem.article.video.mp4 }}" type="video/mp4" )
 
@@ -41,9 +41,16 @@ video#bgvid(ng-repeat="elem in content" ng-show="$index == selected_content" aut
 .wrapper(style="width: auto;")
   div(style="display:flex; height: 50%; width: auto;")
     .event.small
-      .space
-        h1 Les grands évènements Ouest France
-        h2 Avez vous bien suivi l'actualité ?
+      .space.inside(ng-class="{activated: selected_content==-1 }")
+        h1 Top16
+        p.
+          Du décès de David Bowie à la renonciation de François Hollande, Ouest-France a réalisé pour vous
+          une compilation de 16 des évènements parmi les plus marquants de l’année 2016. Revenez sur 12
+          mois riches en informations en testant votre connaissance de l’actualité à travers notre rétrospective
+          interactive.
+        p
+          a.choice(href="", ng-click="next(0)") Commencer
+
     .event.large.top(ng-repeat="elem in content_top" )
       +board("top")
       

@@ -5,10 +5,10 @@ START="$2"
 
 
 
-ffmpeg -ss $START -i $VIDEO -t 00:00:30 -vcodec h264 -acodec aac -strict -2 $VIDEO.mp4
+ffmpeg -ss $START -i $VIDEO -t 00:00:30 -vcodec h264 -an -strict -2 $VIDEO.mp4
 
 # encodage video vp9
-ffmpeg -ss $START -i $VIDEO -t 00:00:30 -vcodec libvpx-vp9 -b:v 1M -acodec libvorbis $VIDEO.webm
+ffmpeg -ss $START -i $VIDEO -t 00:00:30 -vcodec libvpx-vp9 -b:v 1M -an $VIDEO.webm
 
 # commande conseillé par Google
 #ffmpeg -i <source> -c:v libvpx-vp9 -pass 1 -b:v 1000K -threads 1 -speed 4 \
