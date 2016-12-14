@@ -15,7 +15,11 @@ video#bgvid(ng-repeat="elem in content" ng-show="$index == selected_content" aut
         p {{ elem.article.text }}
         a(href="", ng-click="next($index*2+2)") Next
         div(style="float: right; height: 1px; width: 1px;" id="event-{{ $index * 2 + 1}}")
-      .circle
+      .placeholder
+        .circle
+          .arc
+          .arc.secondarc
+
   div(style="display:flex; height: 50%; width: auto")
     .event.large.bottom(ng-repeat="elem in content_bottom")
       .space(style="width: 80%;" )
@@ -23,4 +27,7 @@ video#bgvid(ng-repeat="elem in content" ng-show="$index == selected_content" aut
         p {{ elem.article.text }}
         a(href="", ng-click="next($index*2+1)") Next
         div(style="float: right; height: 1px; width: 1px;" id="event-{{ $index * 2}}")
-      .circle
+      .placeholder
+        .circle
+          .arc
+          .arc.secondarc
