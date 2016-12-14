@@ -5,9 +5,9 @@ window.content = [
       date: "16/02",
       text: "RT si t'es triste",
       video: {
-        webm: "./video/David_Bowie_Heroes.mkv.webm",
-        mp4: "./video/David_Bowie_Heroes.mkv.mp4",
-        png: "./video/David_Bowie_Heroes.mkv.png",
+        webm: "./video/bowie.mp4.webm",
+        mp4: "./video/bowie.mp4.mp4",
+        png: "./video/bowie.mp4.png",
       }
     },
     question: {
