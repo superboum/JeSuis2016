@@ -39,6 +39,25 @@ window.content = [
   },
   {
     article: {
+      title: "Premier oscar pour DiCaprio",
+      date: "21/02",
+      text: "On y croyait plus :s",
+      video: {
+        webm: "./video/dicaprio.mp4.webm",
+        mp4: "./video/dicaprio.mp4.mp4",
+        png: "./video/dicaprio.mp4.png",
+      }
+    },
+    question: {
+      ask: "Charlie ou pas charlie ?",
+      answers: [
+        { text: "3", win: true},
+        { text: "26", win: false}
+      ]
+    }
+  },
+  {
+    article: {
       title: "Prince",
       date: "21/04",
       text: "T'es un roi maintenant",
