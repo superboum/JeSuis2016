@@ -30,7 +30,7 @@ mixin board(position)
       .arc.secondarc
 
 
-video.bgvid(ng-repeat="elem in content" ng-show="$index == selected_content", muted=true, loop=true, poster="{{ elem.article.video.png }}")
+video.bgvid(ng-repeat="elem in content" ng-show="$index == selected_content", muted=true, loop=true, poster="{{ elem.article.video.png }}", id="video-{{ $index }}")
   source(ng-src="{{ elem.article.video.webm }}" type="video/webm" )
   source(ng-src="{{ elem.article.video.mp4 }}" type="video/mp4" )
 
