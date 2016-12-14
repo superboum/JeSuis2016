@@ -50,11 +50,11 @@ html, body, .view {
 }
 
 .event.top {
-  border-left: 2px solid #aaa;
+  /*border-left: 2px solid #aaa;*/
 }
 
 .event.bottom {
-  border-left: 2px solid #aaa;
+  /*border-left: 2px solid #aaa;*/
 }
 
 /* Circle */
@@ -108,7 +108,7 @@ html, body, .view {
   	border-radius: 50%;
   	transform: skewX(-0deg);
   	content: '';
-  	border-width:1px;
+  	border-width:2px;
 }
 
 .bottom .placeholder .circle .arc{
@@ -134,7 +134,17 @@ html, body, .view {
   position:absolute;
 }
 
+/* Ligne border left */
 
+.event .vertical_line{
+  border-left: 2px solid #aaa;
+  position: absolute;
+  top: 59px;
+  bottom: 59px;
+}
+
+
+/*Gitanerie de Quentin*/
 .anchor_hack {
   float: right;
   height: 1px;
