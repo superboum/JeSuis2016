@@ -219,21 +219,19 @@ html, body, .view {
 
 .horizontal_line{
   position:absolute;
+  left:56px;
+  right: 60%;
+
+
 }
 
 .event.bottom .horizontal_line{
-  position:absolute;
   border-top :2px solid #aaa;
   top :0px;
-  left: 56px;
-  right: 150vh;
 }
 .event.top .horizontal_line{
   border-bottom: 2px solid #aaa;
-  position:absolute;
   bottom :0px;
-  left: 56px;
-  right: 596px;
 }
 
 
