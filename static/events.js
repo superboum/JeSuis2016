@@ -58,9 +58,9 @@ window.content = [
   },
   {
     article: {
-      title: "Prince",
-      date: "21/04",
-      text: "T'es un roi maintenant",
+      title: "Prince : disparition d’un artiste d’exception",
+      date: "27/04",
+      text: "Prince, la voix de la génération funk-rock, est décédé le 21 avril 2016. “The king of love” comme il aimait à s’appeler a été retrouvé inerte à l’âge de 57 ans dans sa résidence du Minnesota. Prince Rogers Nelson de son vrai nom a succombé à une overdose de Fentanyl, un opiacé de synthèse. Artiste à succès ayant vendu 80 millions d’albums, il  laisse des millions de fans orphelins derrière lui.",
       video: {
         webm: "./video/Prince.mp4.webm",
         mp4: "./video/Prince.mp4.mp4",
@@ -68,10 +68,10 @@ window.content = [
       }
     },
     question: {
-      ask: "De LU ?",
+      ask: "Combien d’héritiers a Prince ?",
       answers: [
-        { text: "3", win: true},
-        { text: "26", win: false}
+        { text: "15", win: true},
+        { text: "29", win: false}
       ]
     }
   },
@@ -134,6 +134,26 @@ window.content = [
   },
   {
     article: {
+      title: "Cérémonie d’ouverture des JO à Rio : un carnaval international !",
+      date: "05/08",
+      text: "Les Jeux olympiques de Rio ont débuté le 5 août 2016 dans le mythique stade Maracana. Cette 31e Olympiade de l’ère moderne est la première à se disputer sur le continent sud-américain. En dépit des doutes sur son organisation, notamment à cause des tensions politiques liées à la destitution de Dilma Rousseff, Rio De Janeiro a malgré tout su répondre aux attentes du CIO. Ces JO ont marqué les esprits par la présence historique d’une équipe uniquement constituée de réfugiés, ainsi que par ses cérémonies d’ouverture et de clôture hautes en couleurs, montrant le meilleur du Brésil et du sport." ,
+      video: {
+        webm: "./video/polina.webm",
+        mp4: "./video/polina.mp4",
+        png: "./video/David_Bowie_Heroes.mkv.png",
+      }
+    },
+    question: {
+      ask: "Combien de pays ont participé aux JO de Rio ?",
+      answers: [
+        { text: "196", win: false},
+        { text: "204", win: true},
+      ]
+    }
+  },
+
+  {
+    article: {
       title: "La surprise Donald Trump",
       date: "08/11",
       text: "Le candidat républicain Donald Trump a été élu 45e président des États-Unis et succèdera officiellement à Barack Obama à la Maison-Blanche le 20 janvier 2017. Le magnat de l’immobilier a créé la surprise face à Hillary Clinton malgré ses multiples frasques. Le milliardaire s’est illustré dans la campagne, en promettant notamment de construire un mur à la frontière mexicaine, en prononçant des discours sexistes ou en émettant des opinions climatosceptiques.",
@@ -167,6 +187,25 @@ window.content = [
       answers: [
         { text: "Patrick Baudry", win: false},
         { text: "Jean-Loup Chrétien", win: true}
+      ]
+    }
+  },
+  {
+    article: {
+      title: "Mort de Fidel Castro, Cuba perd son lider Maximo",
+      date: "25/11",
+      text: "Porte-drapeau de la révolution cubaine et personnalité incontournable de la deuxième moitié du XXe siècle, Fidel Castro s’est éteint le 25 novembre 2016 à l’âge de 90 ans. Figure de proue du tiers-mondisme et de l’antiaméricanisme, il a lutté pour améliorer l’accès à la santé et à l’éducation de ses concitoyens. Le père de la Révolution cubaine était à la fois adulé et craint. De nombreux observateurs critiquent sa férocité envers les opposants et l’absence de démocratie de son régime.",
+      video: {
+        webm: "./video/polina.webm",
+        mp4: "./video/polina.mp4",
+        png: "./video/David_Bowie_Heroes.mkv.png",
+      }
+    },
+    question: {
+      ask: "Depuis combien d’années Fidel Castro n’est plus président ?",
+      answers: [
+        { text: "10 ans", win: false},
+        { text: "15 ans", win: true}
       ]
     }
   },
