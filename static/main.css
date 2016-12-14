@@ -87,10 +87,11 @@ html, body, .view {
   background-color: rgb(102,102,102);
 }
 
+/* arcs in around circles*/
 .arc{
   overflow: hidden;
 	position: absolute;
-	top: -10px; right: 50%; bottom: 50%; left: -10px;
+	top: -22px; right: 50%; bottom: 50%; left: -22px;
 	transform-origin: 100% 100%;
 	transform: rotate(0deg) skewX(0deg);
 }
@@ -125,12 +126,22 @@ html, body, .view {
   transform: rotate(180deg) skewX(0deg);
 }
 
+
+/* text in circles */
+.circle .text{
+  top: 27px;
+  left: 14px;
+  position:absolute;
+}
+
+
 .anchor_hack {
   float: right;
   height: 1px;
   width: 1px;
   margin-right: -30px;
 }
+
 
 /* VIDEO */
 video#bgvid {

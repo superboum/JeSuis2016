@@ -11,6 +11,7 @@ mixin board
   .anchor_hack(id="event-{{ $index * 2}}")
   .placeholder
     .circle
+      .text {{elem.article.date}} 
       .arc
       .arc.secondarc
 
@@ -32,3 +33,4 @@ video#bgvid(ng-repeat="elem in content" ng-show="$index == selected_content" aut
   div(style="display:flex; height: 50%; width: auto")
     .event.large.bottom(ng-repeat="elem in content_bottom")
       +board
+
