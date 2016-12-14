@@ -77,6 +77,25 @@ window.content = [
   }, 
   {
     article: {
+      title: "Brexit",
+      date: "24/06",
+      text: "Ce n'est qu'un au revoir...",
+      video: {
+        webm: "./video/brexit.mp4.webm",
+        mp4: "./video/brexit.mp4.mp4",
+        png: "./video/brext.mp4.png",
+      }
+    },
+    question: {
+      ask: "Ca va ?",
+      answers: [
+        { text: "oui", win: true},
+        { text: "non", win: false}
+      ]
+    }
+  },
+  {
+    article: {
       title: "La nuit où le président Erdogan a failli tomber",
       date: "15/07",
       text: "Dans la nuit du vendredi 15 au samedi 16 juillet, un coup d’État militaire en Turquie est lancé avant d’avorter quelques heures plus tard. La République turque a connu trois autres putschs de l’armée en 1960, 1971 et 1980 mais c’est le premier échec. L’opération fait plus de 290 morts. Fethullah Gülen, exilé aux Etats-Unis serait le président Recep Tayyip Erdogan, le responsable du putsch. L’Etat d’urgence ainsi qu’une vaste purge dans l’enseignement, les médias et différentes administrations ont suivis.",
