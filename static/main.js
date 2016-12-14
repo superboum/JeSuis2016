@@ -38,7 +38,7 @@ var app = angular.module('jesuis', ['ngRoute'])
 
   .controller('EventController', ['$scope', '$location', '$anchorScroll', "$interval", function($scope, $location, $anchorScroll, $interval) {
     console.log("event-controller");
-    $scope.selected_content = 0;
+    $scope.selected_content = -1;
     $scope.content = window.content;
     $scope.content_top = window.content.filter(function(element, index) {  return index % 2 == 1; });
     $scope.content_bottom = window.content.filter(function(element, index) {  return index % 2 == 0; });
@@ -58,10 +58,10 @@ var app = angular.module('jesuis', ['ngRoute'])
       $anchorScroll();
       selectedVideo.play();
     };
-    var loaded = $interval(function() {
-      try { $scope.next(0); $interval.cancel(loaded); }
-      catch (e) { console.log("waiting..."); }
-    },500);
+    //var loaded = $interval(function() {
+      //try { $scope.next(0); $interval.cancel(loaded); }
+      //catch (e) { console.log("waiting..."); }
+    //},500);
   }])
 ;
 

@@ -106,10 +106,10 @@ window.content = [
       }
     },
     question: {
-      ask: "Ca va ?",
+      ask: "Combien y-a- t-il de pays membres de l’Union européenne ?",
       answers: [
-        { text: "oui", win: true},
-        { text: "non", win: false}
+        { text: "27", win: false},
+        { text: "28", win: true}
       ]
     }
   },
