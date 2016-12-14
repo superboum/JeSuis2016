@@ -36,12 +36,16 @@ var app = angular.module('jesuis', ['ngRoute'])
     };
   }])
 
-  .controller('EventController', ['$scope', '$location', '$anchorScroll', "$interval", function($scope, $location, $anchorScroll, $interval) {
+  .controller('EventController', ['$scope', '$location', '$anchorScroll', "$interval", '$rootScope', function($scope, $location, $anchorScroll, $interval, $rootScope) {
     console.log("event-controller");
     $scope.selected_content = -1;
+    $rootScope.myAnswers = {};
     $scope.content = window.content;
     $scope.content_top = window.content.filter(function(element, index) {  return index % 2 == 1; });
     $scope.content_bottom = window.content.filter(function(element, index) {  return index % 2 == 0; });
+    $scope.choose = function(id, value) {
+      $rootScope.myAnswers[window.content[id].slug] = value;
+    };
     $scope.next = function(id) {
       if (id >= window.content.length) return;
 
@@ -58,10 +62,6 @@ var app = angular.module('jesuis', ['ngRoute'])
       $anchorScroll();
       selectedVideo.play();
     };
-    //var loaded = $interval(function() {
-      //try { $scope.next(0); $interval.cancel(loaded); }
-      //catch (e) { console.log("waiting..."); }
-    //},500);
   }])
 ;
 

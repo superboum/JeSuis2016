@@ -1,5 +1,6 @@
 window.content = [
   {
+    slug: "bowie",
     article: {
       title: "Bowie",
       date: "16/02",
@@ -15,10 +16,12 @@ window.content = [
       answers: [
         { text: "3", win: true},
         { text: "26", win: false}
-      ]
+      ],
+      explanation: "Ceci est une explication vis à vis de la réponse fournie. Elle est affichée dans tous les cas",
     }
   },
   {
+    slug: "attentats",
     article: {
       title: "Attentats",
       date: "21/02",
@@ -34,10 +37,12 @@ window.content = [
       answers: [
         { text: "3", win: true},
         { text: "26", win: false}
-      ]
+      ],
+      explanation: "Ceci est une explication vis à vis de la réponse fournie. Elle est affichée dans tous les cas",
     }
   },
   {
+    slug: "dicaprio",
     article: {
       title: "Premier oscar pour DiCaprio",
       date: "21/02",
@@ -53,10 +58,12 @@ window.content = [
       answers: [
         { text: "3", win: true},
         { text: "26", win: false}
-      ]
+      ],
+      explanation: "Ceci est une explication vis à vis de la réponse fournie. Elle est affichée dans tous les cas",
     }
   },
   {
+    slug: "prince",
     article: {
       title: "Prince : disparition d’un artiste d’exception",
       date: "27/04",
@@ -72,10 +79,12 @@ window.content = [
       answers: [
         { text: "15", win: true},
         { text: "29", win: false}
-      ]
+      ],
+      explanation: "Ceci est une explication vis à vis de la réponse fournie. Elle est affichée dans tous les cas",
     }
   },
   {
+    slug: "travail",
     article: {
       title: "Loi travail",
       date: "16/02",
@@ -91,10 +100,12 @@ window.content = [
       answers: [
         { text: "François Rebsamen", win: true},
         { text: "Michel Sapin", win: false}
-      ]
+      ],
+      explanation: "Ceci est une explication vis à vis de la réponse fournie. Elle est affichée dans tous les cas",
     }
   }, 
   {
+    slug: "brexit",
     article: {
       title: "Londres demande le divorce",
       date: "23/06",
@@ -110,10 +121,12 @@ window.content = [
       answers: [
         { text: "27", win: false},
         { text: "28", win: true}
-      ]
+      ],
+      explanation: "Ceci est une explication vis à vis de la réponse fournie. Elle est affichée dans tous les cas",
     }
   },
   {
+    slug: "turquie",
     article: {
       title: "La nuit où le président Erdogan a failli tomber",
       date: "15/07",
@@ -129,10 +142,12 @@ window.content = [
       answers: [
         { text: "Ahmet Davutoglu", win: false},
         { text: "Binali Yildirim", win: true},
-      ]
+      ],
+      explanation: "Ceci est une explication vis à vis de la réponse fournie. Elle est affichée dans tous les cas",
     }
   },
   {
+    slug: "jo",
     article: {
       title: "Cérémonie d’ouverture des JO à Rio : un carnaval international !",
       date: "05/08",
@@ -148,11 +163,13 @@ window.content = [
       answers: [
         { text: "196", win: false},
         { text: "204", win: true},
-      ]
+      ],
+      explanation: "Ceci est une explication vis à vis de la réponse fournie. Elle est affichée dans tous les cas",
     }
   },
 
   {
+    slug: "trump",
     article: {
       title: "La surprise Donald Trump",
       date: "08/11",
@@ -168,10 +185,12 @@ window.content = [
       answers: [
         { text: "47,30%", win: true},
         { text: " 51,42%", win: false}
-      ]
+      ],
+      explanation: "Ceci est une explication vis à vis de la réponse fournie. Elle est affichée dans tous les cas",
     }
   },
   {
+    slug: "espace",
     article: {
       title: "Un dixième français à la conquête de l'espace",
       date: "17/11",
@@ -187,10 +206,12 @@ window.content = [
       answers: [
         { text: "Patrick Baudry", win: false},
         { text: "Jean-Loup Chrétien", win: true}
-      ]
+      ],
+      explanation: "Ceci est une explication vis à vis de la réponse fournie. Elle est affichée dans tous les cas",
     }
   },
   {
+    slug: "castro",
     article: {
       title: "Mort de Fidel Castro, Cuba perd son lider Maximo",
       date: "25/11",
@@ -206,10 +227,12 @@ window.content = [
       answers: [
         { text: "10 ans", win: false},
         { text: "15 ans", win: true}
-      ]
+      ],
+      explanation: "Ceci est une explication vis à vis de la réponse fournie. Elle est affichée dans tous les cas",
     }
   },
   {
+    slug: "fillon",
     article: {
       title: "La revanche du  « collaborateur » ",
       date: "27/11",
@@ -225,10 +248,12 @@ window.content = [
       answers: [
         { text: "4,38 millions", win: true},
         { text: "4,29 millions", win: false}
-      ]
+      ],
+      explanation: "Ceci est une explication vis à vis de la réponse fournie. Elle est affichée dans tous les cas",
     }
   },
   {
+    slug: "hollande",
     article: {
       title: "Résignation François Hollande",
       date: "01/12",
@@ -244,7 +269,8 @@ window.content = [
       answers: [
         { text: "9° Président de la Ve République", win: false},
         { text: "8° Président de la Ve République", win: true}
-      ]
+      ],
+      explanation: "Ceci est une explication vis à vis de la réponse fournie. Elle est affichée dans tous les cas",
     }
   },
 ];
