@@ -1,5 +1,5 @@
 window.content = [
-/*  {
+  {
     article: {
       title: "Bowie",
       date: "16/02",
@@ -74,7 +74,7 @@ window.content = [
         { text: "26", win: false}
       ]
     }
-  }, */
+  }, 
   {
     article: {
       title: "La nuit où le président Erdogan a failli tomber",
