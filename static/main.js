@@ -73,10 +73,10 @@ var app = angular.module('jesuis', ['ngRoute'])
    console.log("event-controller");
    $scope.selected_content = 0;
    $scope.content = content;
+   $scope.content_top = content.filter(function(element, index) {  return index % 2 == 1; });
+   $scope.content_bottom = content.filter(function(element, index) {  return index % 2 == 0; });
    $scope.next = function() {
-     $scope.selected_content += 1;
-     $scope.load();
-     console.log("coucou");
+     $scope.selected_content = ($scope.selected_content + 1) % content.length;
    };
  }])
 ;

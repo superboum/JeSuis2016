@@ -1,6 +1,6 @@
-video#bgvid(autoplay=true, muted=true, loop=true, poster="{{ content[selected_content].article.video.png }}" controls="")
-  source(src="{{ content[selected_content].article.video.webm | trustUrl }}" type="video/webm" )
-  source(src="{{ content[selected_content].article.video.mp4 | trustUrl  }}" type="video/mp4" )
+video#bgvid(ng-repeat="elem in content" ng-show="$index == selected_content" autoplay=true, muted=true, loop=true, poster="{{ elem.article.video.png }}" controls="")
+  source(ng-src="{{ elem.article.video.webm }}" type="video/webm" )
+  source(ng-src="{{ elem.article.video.mp4 }}" type="video/mp4" )
 
 
 .wrapper(style="width: auto;")
@@ -8,15 +8,14 @@ video#bgvid(autoplay=true, muted=true, loop=true, poster="{{ content[selected_co
     .event.small
       h1 Les grands évènements Ouest France
       h2 Avez vous bien suivi l'actualité ?
-    .event.large.top
+    .event.large.top(ng-repeat="elem in content_top")
       .space(style="width: auto;")
-        h1 Event 2
-    .event.large.top
-      .space(style="width: auto")
-        h1 Event 4
+        h1 {{ elem.article.title }}
+        p {{ elem.article.text }}
+        a(href="", ng-click="next()") Next
   div(style="display:flex; height: 50%; width: auto")
-    .event.large.bottom(ng-repeat="elem in content")
-      .space(style="width: auto;")
+    .event.large.bottom(ng-repeat="elem in content_bottom")
+      .space(style="width: auto;" )
         h1 {{ elem.article.title }}
         p {{ elem.article.text }}
         a(href="", ng-click="next()") Next
