@@ -173,13 +173,32 @@ html, body, .view {
   position:absolute;
 }
 
-/* Ligne border left */
+/* Ligne border */
 
 .event .vertical_line{
   border-left: 2px solid #aaa;
   position: absolute;
   top: 59px;
   bottom: 59px;
+}
+
+.horizontal_line{
+  position:absolute;
+}
+
+.event.bottom .horizontal_line{
+  border-top :2px solid #aaa;
+  top :0.1px;
+  left: 59px;
+  right: 55.3%;
+
+}
+.event.top .horizontal_line{
+  border-bottom: 2px solid #aaa;
+  bottom :0px;
+  left: 59px;
+  right: 55.3%;
+
 }
 
 
