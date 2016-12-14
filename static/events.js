@@ -100,9 +100,9 @@ window.content = [
       date: "08/11",
       text: "Le candidat républicain Donald Trump a été élu 45e président des États-Unis et succèdera officiellement à Barack Obama à la Maison-Blanche le 20 janvier 2017. Le magnat de l’immobilier a créé la surprise face à Hillary Clinton malgré ses multiples frasques. Le milliardaire s’est illustré dans la campagne, en promettant notamment de construire un mur à la frontière mexicaine, en prononçant des discours sexistes ou en émettant des opinions climatosceptiques.",
       video: {
-        webm: "./video/polina.webm",
-        mp4: "./video/polina.mp4",
-        png: "./video/David_Bowie_Heroes.mkv.png",
+        webm: "./video/trump.mp4.webm",
+        mp4: "./video/trump.mp4.mp4",
+        png: "./video/trump.mp4.png",
       }
     },
     question: {
@@ -138,9 +138,9 @@ window.content = [
       date: "27/11",
       text: "François Fillon est le grand vainqueur de la primaire ouverte de la droite et du centre. Les débats télévisés ont permis à l’ancien Premier ministre et adversaire malheureux à l’élection de la présidence de l’UMP de se distinguer du duel entre Alain Juppé et Nicolas Sarkozy. Le député de Paris a remporté 66,5% des voix au second tour du scrutin contre 33,5% pour Juppé. Le maire de Bordeaux était pourtant le favori de l’élection, devant Sarkozy.",
       video: {
-        webm: "./video/polina.webm",
-        mp4: "./video/polina.mp4",
-        png: "./video/David_Bowie_Heroes.mkv.png",
+        webm: "./video/fillon.mp4.webm",
+        mp4: "./video/fillon.mp4.mp4",
+        png: "./video/fillon.mp4.png",
       }
     },
     question: {
