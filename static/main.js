@@ -47,6 +47,8 @@ var app = angular.module('jesuis', ['ngRoute'])
      $location.hash("event-"+$scope.selected_content);
      $anchorScroll();
    };
+
+   $scope.next(0);
  }])
 ;
 
