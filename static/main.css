@@ -38,6 +38,7 @@ html, body, .view {
 .event {
   flex-shrink: 0;
   background-color: rgba(50,0,0,0.5);
+  position:relative;
 }
 
 .event.large {
@@ -58,6 +59,33 @@ html, body, .view {
   border-right: 1px solid #fff;
 }
 
+/* Circle */
+
+.circle{
+  height:75px;
+  width:75px;
+  border-radius: 50%;
+  z-index: 100;
+
+
+}
+
+.top .circle{
+  position :absolute;
+  background-color: rgb(255,0,26);
+  bottom : -37px;
+  left:-37px;
+}
+
+.bottom .circle{
+  position :absolute;
+  top:-37px;
+  left:-37px;
+  background-color: rgb(102,102,102);
+
+}
+
+
 /* VIDEO */
 video#bgvid {
   position: fixed; right: 0; bottom: 0;
@@ -72,4 +100,3 @@ video { display: block; }
 .space {
   padding: 2%;
 }
-
