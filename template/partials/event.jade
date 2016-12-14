@@ -4,21 +4,20 @@ video#bgvid(autoplay=true, muted=true, loop=true, poster="https://s3-us-west-2.a
 
 .wrapper(style="width: auto;")
   div(style="display:flex; height: 50%; width: auto;")
-    div(style="flex-shrink: 0;width:40%")
+    .event.small
       h1 Les grands évènements Ouest France
       h2 Avez vous bien suivi l'actualité ?
-    .event.top
+    .event.large.top
       .space(style="width: auto;")
         h1 Event 2
-    .event.top
+    .event.large.top
       .space(style="width: auto")
         h1 Event 4
   div(style="display:flex; height: 50%; width: auto")
-    .event.bottom
+    .event.large.bottom
       .space(style="width: auto;")
         h1 Event 1
-    .event.bottom
+    .event.large.bottom
       .space(style="width: auto;")
         h1 Event 3
-
-
+    .event.small

@@ -5,9 +5,9 @@ html, body, .view {
 
 .wrapper {
   height: 100%;
-  width: 100%;
+  min-width: 100%;
+  width: auto;
   color: #fff;
-  background-color: rgba(50,0,0,0.5);
   margin: 0px; padding: 0px;
 }
 
@@ -37,7 +37,15 @@ html, body, .view {
 /* EVENT */
 .event {
   flex-shrink: 0;
+  background-color: rgba(50,0,0,0.5);
+}
+
+.event.large {
   width:80%;
+}
+
+.event.small {
+  width:40%;
 }
 
 .event.top {
@@ -65,6 +73,3 @@ video { display: block; }
   padding: 2%;
 }
 
-.frame {
-  background-color: rgba(255,255,255,0.2);
-}
