@@ -11,6 +11,7 @@ html, body, .view {
   margin: 0px; padding: 0px;
 }
 
+/* INIT */
 .init {
   display:flex;
   flex-direction: column;
@@ -33,6 +34,23 @@ html, body, .view {
   text-decoration: none;
 }
 
+/* EVENT */
+.event {
+  flex-shrink: 0;
+  width:80%;
+}
+
+.event.top {
+  border-bottom: 1px solid #fff;
+  border-left: 1px solid #fff;
+}
+
+.event.bottom {
+  border-top: 1px solid #fff;
+  border-right: 1px solid #fff;
+}
+
+/* VIDEO */
 video#bgvid {
   position: fixed; right: 0; bottom: 0;
   min-width: 100%; min-height: 100%;
