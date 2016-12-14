@@ -40,12 +40,12 @@ window.content = [
   {
     article: {
       title: "Prince",
-      date: "21/02",
+      date: "21/04",
       text: "T'es un roi maintenant",
       video: {
-        webm: "./video/polina.webm",
-        mp4: "./video/polina.mp4",
-        png: "./video/David_Bowie_Heroes.mkv.png",
+        webm: "./video/Prince.mp4.webm",
+        mp4: "./video/Prince.mp4.mp4",
+        png: "./video/Prince.mp4.png",
       }
     },
     question: {
