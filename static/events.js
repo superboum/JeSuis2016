@@ -102,7 +102,7 @@ window.content = [
       video: {
         webm: "./video/brexit.mp4.webm",
         mp4: "./video/brexit.mp4.mp4",
-        png: "./video/brext.mp4.png",
+        png: "./video/brexit.mp4.png",
       }
     },
     question: {
