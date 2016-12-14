@@ -41,6 +41,14 @@ html, body, .view {
   position:relative;
 }
 
+.event .inside {
+  opacity: 0.2;
+}
+
+.event .inside.activated {
+  opacity: 1;
+}
+
 .event.large {
   width:80%;
 }
@@ -62,14 +70,14 @@ html, body, .view {
   text-align: center;
   margin: 10px;
   padding: 10px;
-  border: 1px solid #fff;
+  border: 1px solid #aaa;
   font-size: 1.5em;
   display: block;
   color: #fff;
   text-decoration: none;
 }
 
-.event .choice:hover {
+.event .inside.activated .choice:hover {
   background-color: rgb(255, 0, 27);
   border-color: rgb(255, 0, 27);
   color: #fff;

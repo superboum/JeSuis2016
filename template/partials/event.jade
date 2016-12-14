@@ -1,5 +1,5 @@
 mixin board(position)
-  .pure-g
+  .pure-g.inside(ng-class=position == "top" ? "{activated: $index*2+1==selected_content}":"{activated: $index*2==selected_content}")
     .pure-u-2-3
       .space
         h1 {{ elem.article.title }}
@@ -9,7 +9,7 @@ mixin board(position)
         h3 {{ elem.question.ask }}
         //-Hack des familles
         if position == "top"
-          a.choice(ng-click="next($index*2+2)" href="") {{ elem.question.answers[0].text }} 
+          a.choice(ng-click="next($index*2+2)" href="") {{ elem.question.answers[0].text }}
           a.choice(ng-click="next($index*2+2)" href="") {{ elem.question.answers[1].text }}
         else
           a.choice(ng-click="next($index*2+1)" href="") {{ elem.question.answers[0].text }}
