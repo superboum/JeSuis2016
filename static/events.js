@@ -81,9 +81,9 @@ window.content = [
       date: "16/02",
       text: "Le projet de loi sur la réforme du Travail, porté par la ministre Myriam El Khomri, fait couler beaucoup d’encre. Contesté par les syndicats, les organisations de jeunesse et même au sein de la majorité parlementaire, il n’est pas parvenu à rallier une large partie de la gauche française malgré certaines concessions. Le 21 juillet dernier, le chef du gouvernement Manuel Valls est passé en force, faisant définitivement adopter le texte à l’aide de l’article 49-3 de la Constitution.",
       video: {
-        webm: "./video/polina.webm",
-        mp4: "./video/polina.mp4",
-        png: "./video/David_Bowie_Heroes.mkv.png",
+        webm: "./video/travail.mp4.webm",
+        mp4: "./video/travail.mp4.mp4",
+        png: "./video/travail.mp4.png",
       }
     },
     question: {
@@ -96,9 +96,9 @@ window.content = [
   }, 
   {
     article: {
-      title: "Brexit",
-      date: "24/06",
-      text: "Ce n'est qu'un au revoir...",
+      title: "Londres demande le divorce",
+      date: "23/06",
+      text: "Appelés aux urnes le 23 juin, les Britanniques se sont prononcés par référendum en faveur d’une sortie de l’Union européenne. Cette première historique intervient au terme d’une campagne tendue, marquée notamment par l’assassinat de la députée travailliste, Jo Cox, par un fanatique pro Brexit. A l’initiative du scrutin tout en défendant un maintien dans l’UE, le Premier ministre conservateur David Cameron a dû démissionner de son poste un an à peine après sa nette réélection. Il a été remplacé par son ancienne secrétaire d’Etat à l’intérieur, Theresa May, qui n’a pas encore enclenché l’article 50 du traité de Lisbonne, synonyme de retrait de l’Union.",
       video: {
         webm: "./video/brexit.mp4.webm",
         mp4: "./video/brexit.mp4.mp4",
