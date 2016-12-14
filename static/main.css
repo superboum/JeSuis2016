@@ -147,6 +147,12 @@ html, body, .view {
 
 }
 
+.placeholder .circle.small.small2{
+  position : absolute;
+  top: 32px;
+  left:-27px;
+}
+
 /* arcs in around circles*/
 .arc{
   overflow: hidden;
@@ -201,6 +207,44 @@ html, body, .view {
   position:absolute;
 }
 
+/*Triangles*/
+.triangle{
+  width: 0;
+  height: 0;
+  border-style: solid;
+
+
+}
+
+.top .placeholder_date .triangle{
+  border-width: 10.4px 6px 0 6px;
+  position: absolute;
+  top:32.5px;
+  right: -25.5px;
+  border-color: #aaa transparent transparent transparent;
+}
+
+.bottom .placeholder_date .triangle{
+  border-width: 0 6px 10.4px 6px;
+  position: absolute;
+  top:1.5px;
+  z-index: 10000;
+  top:32.5px;
+  right: -25.5px;
+  border-color:transparent transparent #aaa transparent;
+
+}
+
+.horizontal_line .triangle{
+  border-width: 6px 0 6px 10.4px;
+  position: absolute;
+  right: -5px;
+  top:-6px;
+  border-color: transparent transparent transparent #aaa;
+  z-index: 10000;
+
+}
+
 /* Ligne border */
 
 .event.top .vertical_line{
@@ -219,10 +263,8 @@ html, body, .view {
 
 .horizontal_line{
   position:absolute;
-  left:56px;
+  left:59px;
   right: 60%;
-
-
 }
 
 .event.bottom .horizontal_line{

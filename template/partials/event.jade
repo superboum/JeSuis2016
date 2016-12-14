@@ -29,17 +29,20 @@ mixin board(position)
     .anchor_hack(id="event-{{ $index * 2}}")
   .vertical_line
   .horizontal_line
+    .triangle
   .placeholder_date
     .circle
       .text {{elem.article.date}}
       .arc
     .circle.small
+    .triangle
 
   .placeholder
     .circle
       .arc
       .arc.secondarc
     .circle.small
+    .circle.small.small2
 
 .bgvid(ng-show="selected_content == -1", style="background-color: #000")
 video.bgvid(ng-repeat="elem in content" ng-show="$index == selected_content", muted=true, loop=true, poster="{{ elem.article.video.png }}", id="video-{{ $index }}")
