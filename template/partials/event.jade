@@ -14,11 +14,17 @@ video#bgvid(ng-repeat="elem in content" ng-show="$index == selected_content" aut
         h1 {{ elem.article.title }}
         p {{ elem.article.text }}
         a(href="", ng-click="next($index*2+2)") Next
-      .circle
+      .placeholder
+        .circle
+          .arc
+          .arc.secondarc
   div(style="display:flex; height: 50%; width: auto")
     .event.large.bottom(ng-repeat="elem in content_bottom" id="event-{{ $index * 2 }}")
       .space(style="width: 80%;" )
         h1 {{ elem.article.title }}
         p {{ elem.article.text }}
         a(href="", ng-click="next($index*2+1)") Next
-      .circle
+      .placeholder
+        .circle
+          .arc
+          .arc.secondarc
