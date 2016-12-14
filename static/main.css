@@ -57,6 +57,25 @@ html, body, .view {
   border-left: 2px solid #aaa;
 }
 
+.event .choice {
+  border-radius: 20px;
+  text-align: center;
+  margin: 10px;
+  padding: 10px;
+  border: 1px solid #fff;
+  font-size: 1.5em;
+  display: block;
+  color: #fff;
+  text-decoration: none;
+}
+
+.event .choice:hover {
+  background-color: rgb(255, 0, 27);
+  border-color: rgb(255, 0, 27);
+  color: #fff;
+  text-decoration: none;
+}
+
 /* Circle */
 
 .bottom .placeholder{
