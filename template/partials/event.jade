@@ -10,16 +10,15 @@ video#bgvid(ng-repeat="elem in content" ng-show="$index == selected_content" aut
         h1 Les grands évènements Ouest France
         h2 Avez vous bien suivi l'actualité ?
     .event.large.top(ng-repeat="elem in content_top" id="event-{{ $index * 2 + 1}}")
-      .space(style="width: auto;")
+      .space(style="width: 80%;")
         h1 {{ elem.article.title }}
         p {{ elem.article.text }}
         a(href="", ng-click="next($index*2+2)") Next
       .circle
   div(style="display:flex; height: 50%; width: auto")
     .event.large.bottom(ng-repeat="elem in content_bottom" id="event-{{ $index * 2 }}")
-      .space(style="width: auto;" )
+      .space(style="width: 80%;" )
         h1 {{ elem.article.title }}
         p {{ elem.article.text }}
         a(href="", ng-click="next($index*2+1)") Next
       .circle
-    .event.small

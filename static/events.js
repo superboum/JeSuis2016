@@ -75,4 +75,24 @@ window.content = [
       ]
     }
   },
+  {
+    article: {
+      title: "La surprise Donald Trump",
+      date: "08/11",
+      text: "Le candidat républicain Donald Trump a été élu 45e président des États-Unis et succèdera officiellement à Barack Obama à la Maison-Blanche le 20 janvier 2017. Le magnat de l’immobilier a créé la surprise face à Hillary Clinton malgré ses multiples frasques. Le milliardaire s’est illustré dans la campagne, en promettant notamment de construire un mur à la frontière mexicaine, en prononçant des discours sexistes ou en émettant des opinions climatosceptiques.",
+      video: {
+        webm: "./video/polina.webm",
+        mp4: "./video/polina.mp4",
+        png: "./video/David_Bowie_Heroes.mkv.png",
+      }
+    },
+    question: {
+      ask: "Quel pourcentage de voix a obtenu Donald Trump ?",
+      answers: [
+        { text: "47,30%", win: true},
+        { text: " 51,42%", win: false}
+      ]
+    }
+  },
+
 ];
