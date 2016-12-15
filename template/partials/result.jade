@@ -2,8 +2,33 @@
   .elem(ng-repeat="pic in pics" style="background-image: url('{{ pic }}'); ")
 
 .result
+  .fixedbutton(ng-click="exit()")
+    .close(ng-click="exit()")
   .pure-g(style="height: 100%")
     .pure-u-1
       .center
         pre {{ JSON.stringify($root.myAnswers) }}
         h1 {{ goodAnswers }}/{{ content.length }}
+
+    .credit_box
+      div
+        img(src="img/of.png")
+      div
+        img(src="img/insa.png"   )
+      div
+        img(src="img/sciencepo.jpeg"  )
+      div
+        img(src="img/rennes2.png"  )
+      div
+        img(src="img/ouest_ml.png")
+      div
+        img(src="img/regionbretagne.jpeg"  )
+      div
+        img(src="img/rennesvillemetropole.png"  )
+      div
+        img(src="img/dep_ill_vill.png")
+      div
+        img(src="img/opensource.png")
+      div
+        img(src="img/cc.png")          
+            

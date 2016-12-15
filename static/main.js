@@ -1,3 +1,5 @@
+
+
 var app = angular.module('jesuis', ['ngRoute'])
   .config(['$routeProvider', function($routeProvider) {
     $routeProvider
@@ -68,6 +70,20 @@ var app = angular.module('jesuis', ['ngRoute'])
       $anchorScroll();
       selectedVideo.play();
     };
+    $scope.exit=function(){
+      console.log("exit function");
+      if (document.cancelFullScreen) {
+      document.cancelFullScreen();
+      }
+      else if (document.mozCancelFullScreen) {
+      document.mozCancelFullScreen();
+      }
+      else if (document.webkitCancelFullScreen) {
+      document.webkitCancelFullScreen();
+      }
+      $location.path('/');
+
+    };
   }])
   .controller('ResultController', ['$scope', '$location', '$interval', '$rootScope', function($scope, $location, $interval, $rootScope) {
     var nbPics = 3;
@@ -84,6 +100,19 @@ var app = angular.module('jesuis', ['ngRoute'])
     console.log($rootScope.myAnswers);
     var getGoodAnswers = function(obj) { res = 0; for(var elem in obj) { if(obj.hasOwnProperty(elem) && obj[elem]) res++; } return res};
     $scope.goodAnswers = getGoodAnswers($rootScope.myAnswers);
+    $scope.exit=function(){
+      console.log("exit function");
+      if (document.cancelFullScreen) {
+      document.cancelFullScreen();
+      }
+      else if (document.mozCancelFullScreen) {
+      document.mozCancelFullScreen();
+      }
+      else if (document.webkitCancelFullScreen) {
+      document.webkitCancelFullScreen();
+      }
+      $location.path('/');
+
+    };
   }])
 ;
-
