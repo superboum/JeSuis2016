@@ -265,7 +265,7 @@ window.content = [
   {
     slug: "hollande",
     article: {
-      title: "Résignation François Hollande",
+      title: "Pas de second mandat pour le chef de l'État",
       date: "01/12",
       text: "François Hollande ne briguera pas un second quinquennat. Bien qu’attendue, en raison de la cote d’impopularité record du Président, cette décision n’en constitue pas moins une première dans l’Histoire de la Ve République. Aucun chef d’Etat français n’avait encore renoncé à se présenter à sa propre succession. Cette décision a rapidement été suivie par la démission de Manuel Valls du poste de Premier ministre, qui se lance dans la course à l’élection présidentielle.",
       video: {
