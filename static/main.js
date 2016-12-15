@@ -44,7 +44,8 @@ var app = angular.module('jesuis', ['ngRoute'])
     $scope.content_top = window.content.filter(function(element, index) {  return index % 2 == 1; });
     $scope.content_bottom = window.content.filter(function(element, index) {  return index % 2 == 0; });
     $scope.choose = function(id, value) {
-      $rootScope.myAnswers[window.content[id].slug] = value;
+      if (id != $scope.selected_content) return;
+      $rootScope.myAnswers[window.content[id].slug] = window.content[id].question.answers[value].win;
     };
     $scope.next = function(id) {
       if (id >= window.content.length) return;
