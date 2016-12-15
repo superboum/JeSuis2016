@@ -226,7 +226,7 @@ window.content = [
     article: {
       title: "La surprise Donald Trump",
       date: "08/11",
-      text: "Le candidat républicain Donald Trump a été élu 45e président des États-Unis et succédera officiellement à Barack Obama à la Maison-Blanche le 20 janvier 2017. Le magnat de l’immobilier a créé la surprise face à Hillary Clinton malgré ses multiples frasques. Le milliardaire s’est illustré dans la campagne, en promettant notamment de construire un mur à la frontière mexicaine, en prononçant des discours sexistes ou en émettant des opinions climatosceptiques.",
+      text: "Le candidat républicain Donald Trump a été élu 45e président des États-Unis et succédera officiellement à Barack Obama à la Maison-Blanche le 20 janvier 2017. Le magnat de l’immobilier a créé la surprise face à Hillary Clinton malgré ses multiples frasques. Le milliardaire s’est fait remarquer dans la campagne, en promettant notamment de construire un mur à la frontière mexicaine, en prononçant des discours sexistes ou en émettant des opinions climatosceptiques.",
       video: {
         webm: "./video/trump.mp4.webm",
         mp4: "./video/trump.mp4.mp4",
