@@ -9,8 +9,12 @@
       .center
         pre {{ JSON.stringify($root.myAnswers) }}
         h1 {{ goodAnswers }}/{{ content.length }}
+    .pure-u-1
+      .center
+        a.super_bouton(ng-click="goCredits()" href="") Crédits
+        a.super_bouton Quitter
 
-    .credit_box
+    //-.credit_box
       div
         img(src="img/of.png")
       div
