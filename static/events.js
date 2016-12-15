@@ -216,8 +216,8 @@ window.content = [
     question: {
       ask: "Quel est le titre du dernier album de Bob Dylan ?",
       answers: [
-        { text: "Fallen Angels", win: false},
-        { text: "Modern Times", win: true},
+        { text: "Fallen Angels", win: true},
+        { text: "Modern Times", win: false},
       ],
     }
   },
@@ -318,6 +318,26 @@ window.content = [
       answers: [
         { text: "9° Président de la Ve République", win: false},
         { text: "8° Président de la Ve République", win: true}
+      ],
+    }
+  },
+  {
+    slug: "alep",
+    article: {
+      title: "L'effondrement d'Alep dans le sang",
+      date: "12/12",
+      text: "La deuxième ville syrienne, tenue par les rebelles depuis plus de trois ans, est en passe d'être reprise intégralement par les troupes de Bachar el-Assad, appuyées massivement par l'aviation russe. Les derniers bastions de la rébellion syrienne cèdent peu à peu face à l'avancée des forces armées gouvernementales. Les bombardements intensifs isolent les populations civiles, victimes d'une crise humanitaire d'une ampleur jamais vue depuis le début du conflit. Depuis le 12 décembre, des témoignages font état de massacres parmi les populations assiégées, commis par les forces pro-gouvernementales.",
+      video: {
+        webm: "./video/alep.mp4.webm",
+        mp4: "./video/alep.mp4.mp4",
+        png: "./video/alep.mp4.png",
+      }
+    },
+    question: {
+      ask: " Avant le début du conflit syrien, la population d’Alep s’élevait à...",
+      answers: [
+        { text: "environ 2,5 millions d’habitants ", win: true},
+        { text: "environ 1,5 millions d’habitants", win: false}
       ],
     }
   },
