@@ -73,6 +73,9 @@ html, body, .view {
 .event.small {
   width:40%;
 }
+.event.tiny {
+  width:5%;
+}
 
 .event.top {
   /*border-left: 2px solid #aaa;*/
