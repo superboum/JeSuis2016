@@ -35,6 +35,7 @@ var app = angular.module('jesuis', ['ngRoute'])
 
   .controller('InitController', ['$scope', '$location', function($scope, $location) {
     console.log("init-controller");
+    $scope.iOS = /iPad|iPhone|iPod/.test(navigator.userAgent) && !window.MSStream;
     $scope.start = function() {
       var elem = document.documentElement;
       if (elem.requestFullscreen) {

@@ -3,7 +3,9 @@
   //-source(src="http://thenewcode.com/assets/videos/polina.mp4" type="video/mp4")
 
 .init
-  .fixer
+  .fixer(ng-show="!iOS")
     h1 #EtesVous2016
     p
       a(href="", ng-click="start()") &#9654; Lancer
+  .fixer(ng-show="iOS")
+    p iPhone ou iPad n'est pas supporté.

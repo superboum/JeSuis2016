@@ -24,7 +24,7 @@ window.content = [
     article: {
       title: "Di Caprio enfin oscarisé",
       date: "29/02",
-      text: "Cette fois c’est la bonne ! Après plusieurs nominations pour ses performances dans  Gilbert Grape, Aviator, Blood Diamond, et Le Loup de Wall Street, Leonardo Di Caprio tient enfin son Oscar. Meilleur acteur pour son interprétation d’Hugo Glass dans le film The Revenant d’Alejandro Gonzalez Inaritu, le Californien a conquis sa récompense de haute lutte au terme de « l’expérience professionnelle la plus difficile de sa vie ». Au cours d’un tournage chaotique en raison de conditions météorologiques déplorables, l’ancienne star de Titanic a notamment dû manger du foie de bison ou nager dans l’eau glacé.",
+      text: "Cette fois c’est la bonne ! Après plusieurs nominations pour ses performances dans  Gilbert Grape, Aviator, Blood Diamond, et Le Loup de Wall Street, Leonardo Di Caprio tient enfin son Oscar. Meilleur acteur pour son interprétation d’Hugo Glass dans le film The Revenant d’Alejandro Gonzalez Inaritu, le Californien a conquis sa récompense de haute lutte au terme de « l’expérience professionnelle la plus difficile de sa vie ». Au cours d’un tournage chaotique en raison de conditions météorologiques déplorables, l’ancienne star de Titanic a notamment dû manger du foie de bison ou nager dans l’eau glacée.",
       video: {
         webm: "./video/dicaprio.mp4.webm",
         mp4: "./video/dicaprio.mp4.mp4",
