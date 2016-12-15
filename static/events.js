@@ -23,7 +23,7 @@ window.content = [
     slug: "dicaprio",
     article: {
       title: "Di Caprio enfin oscarisé",
-      date: "21/02",
+      date: "29/02",
       text: "Cette fois c’est la bonne ! Après plusieurs nominations pour ses performances dans  Gilbert Grape, Aviator, Blood Diamond, et Le Loup de Wall Street, Leonardo Di Caprio tient enfin son Oscar. Meilleur acteur pour son interprétation d’Hugo Glass dans le film The Revenant d’Alejandro Gonzalez Inaritu, le Californien a conquis sa récompense de haute lutte au terme de « l’expérience professionnelle la plus difficile de sa vie ». Au cours d’un tournage chaotique en raison de conditions météorologiques déplorables, l’ancienne star de Titanic a notamment dû manger du foie de bison ou nager dans l’eau glacé.",
       video: {
         webm: "./video/dicaprio.mp4.webm",
@@ -32,10 +32,10 @@ window.content = [
       }
     },
     question: {
-      ask: "Quel est l’âge de DiCaprio ?",
+      ask: "Quel est l’âge de Di Caprio ?",
       answers: [
         { text: "42 ans", win: true},
-        { text: "48 ans", win: false}
+        { text: "44 ans", win: false}
       ],
     }
   },
@@ -62,9 +62,9 @@ window.content = [
   {
     slug: "prince",
     article: {
-      title: "Prince : disparition d’un artiste d’exception",
+      title: "Prince : disparition du kid de Minneapolis",
       date: "27/04",
-      text: "Prince, la voix de la génération funk-rock, est décédé le 21 avril 2016. “The king of love” comme il aimait à s’appeler a été retrouvé inerte à l’âge de 57 ans dans sa résidence du Minnesota. Prince Rogers Nelson de son vrai nom a succombé à une overdose de Fentanyl, un opiacé de synthèse. Artiste à succès ayant vendu 80 millions d’albums, il  laisse des millions de fans orphelins derrière lui.",
+      text: "Prince, la voix de la génération funk-rock, est décédé le 21 avril 2016. “The king of love” comme il aimait à s’appeler a été retrouvé inerte à l’âge de 57 ans dans sa résidence du Minnesota. Prince Rogers Nelson, de son vrai nom a succombé, à une overdose de Fentanyl, un opiacé de synthèse. Artiste à succès ayant vendu 80 millions d’albums, il  laisse des millions de fans orphelins derrière lui.",
       video: {
         webm: "./video/Prince.mp4.webm",
         mp4: "./video/Prince.mp4.mp4",
@@ -72,7 +72,7 @@ window.content = [
       }
     },
     question: {
-      ask: "Combien d’héritiers a Prince ?",
+      ask: "Combien d’héritiers avérés a Prince ?",
       answers: [
         { text: "15", win: false},
         { text: "29", win: true}
@@ -84,7 +84,7 @@ window.content = [
     article: {
       title: "La France accueille l’Europe pour un mois de foot et de fête",
       date: "10/06",
-      text: "Désignée pays-hôte de la compétition en 2010, la France inaugure le grand bal du foot européen : le championnat d'Europe (ou Euro) le 10 juin 2016. Dix métropoles accueillent les équipes et les supporters de 24 nations européennes, un record de participants pour la compétition continentale. La France s'offre une bouffée d'oxygène bienvenue lors d'un mois de fête, de rencontres et de partages. L'excellent parcours des Bleus de Didier Deschamps a prolongé la fête jusqu'à la finale, un mois plus tard. ",
+      text: "Désignée pays-hôte de la compétition en 2010, la France inaugure le grand bal du foot européen : le championnat d'Europe (ou Euro) le 10 juin 2016. Dix métropoles accueillent les équipes et les supporters de 24 nations européennes, un record de participants pour la compétition continentale. La France s'offre une bouffée d'oxygène bienvenue lors d'un mois de fête, de rencontres et de partages. L'excellent parcours des Bleus de Didier Deschamps a prolongé la fête jusqu'à la finale perdue contre le Portugal, un mois plus tard. ",
       video: {
         webm: "./video/euro.mp4.webm",
         mp4: "./video/euro.mp4.mp4",
@@ -102,9 +102,9 @@ window.content = [
   {
     slug: "brexit",
     article: {
-      title: "Londres demande le divorce",
+      title: "Les Britanniques demandent le divorce",
       date: "23/06",
-      text: "Appelés aux urnes le 23 juin, les Britanniques se sont prononcés par référendum en faveur d’une sortie de l’Union européenne. Cette première historique intervient au terme d’une campagne tendue, marquée notamment par l’assassinat de la députée travailliste, Jo Cox, par un fanatique pro Brexit. A l’initiative du scrutin tout en défendant un maintien dans l’UE, le Premier ministre conservateur David Cameron a dû démissionner de son poste un an à peine après sa nette réélection. Il a été remplacé par son ancienne secrétaire d’Etat à l’intérieur, Theresa May, qui n’a pas encore enclenché l’article 50 du traité de Lisbonne, synonyme de retrait de l’Union.",
+      text: "Appelés aux urnes le 23 juin, les Britanniques se sont prononcés par référendum en faveur du Brexit, sortie de l'Union européenne. Cette première historique intervient au terme d’une campagne tendue, marquée notamment par l’assassinat de la députée travailliste, Jo Cox, par un fanatique pro Brexit. A l’initiative du scrutin tout en défendant un maintien dans l’UE, le Premier ministre conservateur David Cameron a dû démissionner de son poste un an à peine après sa nette réélection. Il a été remplacé par son ancienne secrétaire d’Etat à l’intérieur, Theresa May, qui n’a pas encore enclenché l’article 50 du traité de Lisbonne, synonyme de retrait de l’Union.",
       video: {
         webm: "./video/brexit.mp4.webm",
         mp4: "./video/brexit.mp4.mp4",
@@ -123,9 +123,9 @@ window.content = [
   {
     slug: "nice",
     article: {
-      title: "Un 14 juillet sous le signe de l'horreur",
+      title: "Un 14 juillet sous le signe de l'horreur à Nice",
       date: "14/07",
-      text: "30.000 personnes se sont rendues sur la promenade des Anglais à Nice afin d'assister au feu d'artifice, le soir de la fête nationale. A l'issue de ce dernier, un camion fou fonce sur la foule pendant 1.7 km et fait ainsi 86 victimes et 434 blessés. L'auteur de cet acte terroriste est abattu par la police ce qui interrompt ainsi sa course folle. Dès le lendemain, trois jours de deuil national sont décrétés par le président de la République. Cet attentat succède à celui de Magnanville et précède celui de Saint-Etienne du Rouvray.",
+      text: "30 000 personnes se sont rendues sur la promenade des Anglais à Nice afin d'assister au feu d'artifice, le soir de la fête nationale. A l'issue de ce dernier, un camion fou fonce sur la foule pendant 1,7 km et fait ainsi 86 victimes et 434 blessés. L'auteur de cet acte terroriste est abattu par la police ce qui interrompt ainsi sa course folle. Dès le lendemain, trois jours de deuil national sont décrétés par le président de la République. Cet attentat succède à celui de Magnanville et précède celui de Saint-Etienne du Rouvray.",
       video: {
         webm: "./video/nice.mp4.webm",
         mp4: "./video/nice.mp4.mp4",
@@ -184,9 +184,9 @@ window.content = [
   {
     slug: "jo",
     article: {
-      title: "Cérémonie d’ouverture des JO à Rio : un carnaval international !",
+      title: "Les JO de Rio, une réussite malgré les pronostics",
       date: "05/08",
-      text: "Les Jeux olympiques de Rio ont débuté le 5 août 2016 dans le mythique stade Maracana. Cette 31e Olympiade de l’ère moderne est la première à se disputer sur le continent sud-américain. En dépit des doutes sur son organisation, notamment à cause des tensions politiques liées à la destitution de Dilma Rousseff, Rio De Janeiro a malgré tout su répondre aux attentes du CIO. Ces JO ont marqué les esprits par la présence historique d’une équipe uniquement constituée de réfugiés, ainsi que par ses cérémonies d’ouverture et de clôture hautes en couleurs, montrant le meilleur du Brésil et du sport." ,
+      text: "Les Jeux olympiques de Rio ont débuté le 5 août 2016 dans le mythique stade Maracana. Cette 31e Olympiade de l’ère moderne est la première à se disputer sur le continent sud-américain. En dépit des doutes sur son organisation, notamment à cause des tensions politiques liées à la destitution de Dilma Rousseff, qui surviendra la 31 août, Rio De Janeiro a su répondre aux attentes du CIO. Ces JO ont marqué les esprits par la présence historique d’une équipe uniquement constituée de réfugiés, ainsi que par ses cérémonies d’ouverture et de clôture hautes en couleurs, montrant le meilleur du Brésil et du sport." ,
       video: {
         webm: "./video/jo.mp4.webm",
         mp4: "./video/jo.mp4.mp4",
@@ -258,16 +258,15 @@ window.content = [
       answers: [
         { text: "Patrick Baudry", win: false},
         { text: "Jean-Loup Chrétien", win: true}
-      ],
-      explanation: "Ceci est une explication vis à vis de la réponse fournie. Elle est affichée dans tous les cas",
+      ]
     }
   },
   {
     slug: "castro",
     article: {
-      title: "Mort de Fidel Castro, Cuba perd son lider Maximo",
+      title: "Mort de Fidel Castro, Cuba perd son Lider Maximo",
       date: "25/11",
-      text: "Porte-drapeau de la révolution cubaine et personnalité incontournable de la deuxième moitié du XXe siècle, Fidel Castro s’est éteint le 25 novembre 2016 à l’âge de 90 ans. Figure de proue du tiers-mondisme et de l’antiaméricanisme, il a lutté pour améliorer l’accès à la santé et à l’éducation de ses concitoyens. Le père de la Révolution cubaine était à la fois adulé et craint. De nombreux observateurs critiquent sa férocité envers les opposants et l’absence de démocratie de son régime.",
+      text: "Porte-drapeau de la révolution cubaine et grand personnage de la deuxième moitié du XXe siècle, Fidel Castro s’est éteint le 25 novembre 2016 à l’âge de 90 ans. Figure de proue du tiers-mondisme et de l’antiaméricanisme, il a lutté pour améliorer l’accès à la santé et à l’éducation de ses concitoyens. Le père de la Révolution cubaine était à la fois adulé et craint. De nombreux observateurs critiquent sa férocité envers les opposants et l’absence de démocratie de son régime.",
       video: {
         webm: "./video/castro.mp4.webm",
         mp4: "./video/castro.mp4.mp4",
