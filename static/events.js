@@ -168,9 +168,9 @@ window.content = [
       date: "13/10",
       text: "Figure de la musique populaire, Bob Dylan, de son vrai nom Robert Allen Zimmerman, a reçu le prix Nobel de littérature pour avoir « créé dans le cadre de la grande tradition de la musique américaine de nouveaux modes d'expression poétique ». L'artiste de 75 ans, succède ainsi à la Biélorusse Svetlana Alexievitch. L'auteur-compositeur-interprète a qualifié cette récompense de « stupéfiante, incroyable » mais ne s'est pourtant pas rendu à la cérémonie prétextant d'autres obligations." ,
       video: {
-        webm: "./video/JO.3gp.webm",
-        mp4: "./video/JO.3gp.mp4",
-        png: "./video/JO.3gp.png",
+        webm: "./video/dylan.mp4.webm",
+        mp4: "./video/dylan.mp4.mp4",
+        png: "./video/dylan.mp4.png",
       }
     },
     question: {
