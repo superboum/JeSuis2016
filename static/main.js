@@ -1,4 +1,4 @@
-var app = angular.module('jesuis', ['ngRoute','duScroll'])
+var app = angular.module('jesuis', ['ngRoute'])
   .config(['$routeProvider', function($routeProvider) {
     $routeProvider
       .when('/init', {
@@ -41,7 +41,7 @@ var app = angular.module('jesuis', ['ngRoute','duScroll'])
     };
   }])
 
-  .controller('EventController', ['$scope', '$location', '$anchorScroll', "$interval", '$rootScope', '$document' ,function($scope, $location, $anchorScroll, $interval, $rootScope,$document) {
+  .controller('EventController', ['$scope', '$location', '$anchorScroll', "$interval", '$rootScope', function($scope, $location, $anchorScroll, $interval, $rootScope) {
     console.log("event-controller");
     $scope.selected_content = -1;
     $rootScope.myAnswers = {};
@@ -63,13 +63,9 @@ var app = angular.module('jesuis', ['ngRoute','duScroll'])
         }
       });
 
-      var nextSection = angular.element(document.getElementById("event-"+id));
-      console.log("id: "+id);
-      console.log("nextSection: "+nextSection);
-      $document.scrollToElementAnimated(nextSection);
       $scope.selected_content = id;
-      //$location.hash("event-"+$scope.selected_content);
-      //$anchorScroll();
+      $location.hash("event-"+$scope.selected_content);
+      $anchorScroll();
       selectedVideo.play();
     };
   }])
@@ -90,3 +86,4 @@ var app = angular.module('jesuis', ['ngRoute','duScroll'])
     $scope.goodAnswers = getGoodAnswers($rootScope.myAnswers);
   }])
 ;
+
