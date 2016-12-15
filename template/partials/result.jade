@@ -7,8 +7,10 @@
   .pure-g(style="height: 100%")
     .pure-u-1
       .center
-        pre {{ JSON.stringify($root.myAnswers) }}
-        h1 {{ goodAnswers }}/{{ content.length }}
+        h1(style="text-align:center")
+          ="mon score"
+          br
+          ="{{ goodAnswers }}/{{ content.length }}"
     .pure-u-1
       .center
         a.super_bouton(ng-click="goCredits()" href="") Crédits
