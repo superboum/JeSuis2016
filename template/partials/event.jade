@@ -19,8 +19,8 @@ mixin board(position)
           a.choice(ng-click="choose($index*2, 0)" href="") {{ elem.question.answers[0].text }}
           a.choice(ng-click="choose($index*2, 1)" href="") {{ elem.question.answers[1].text }}
       .space(ng-show="$root.myAnswers[elem.slug] != null")
-        h3(ng-show="elem.question.answers[$root.myAnswers[elem.slug]].win") &#9745; Bonne réponse !
-        h3(ng-show="!elem.question.answers[$root.myAnswers[elem.slug]].win") &#9746; Mauvaise réponse !
+        h3(ng-show="$root.myAnswers[elem.slug]") &#9745; Bonne réponse !
+        h3(ng-show="!$root.myAnswers[elem.slug]") &#9746; Mauvaise réponse !
         p {{ elem.question.explanation }}
         if position == "top"
           a.choice(ng-click="next($index*2+2)" href="") Suivant
