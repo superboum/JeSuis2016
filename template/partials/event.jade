@@ -21,11 +21,10 @@ mixin board(position)
       .space(ng-show="$root.myAnswers[elem.slug] != null")
         h3(ng-show="$root.myAnswers[elem.slug]") &#9745; Bonne réponse !
         h3(ng-show="!$root.myAnswers[elem.slug]") &#9746; Mauvaise réponse !
-        p {{ elem.question.explanation }}
         if position == "top"
-          a.choice(ng-click="next($index*2+2)" href="") Suivant
+          a.choice(ng-click="next($index*2+2)" href="") Continuer
         else 
-          a.choice(ng-click="next($index*2+1)" href="") Suivant
+          a.choice(ng-click="next($index*2+1)" href="") Continuer
 
   .vertical_line
   .horizontal_line

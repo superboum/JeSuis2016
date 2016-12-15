@@ -2,9 +2,9 @@ window.content = [
   {
     slug: "bowie",
     article: {
-      title: "Bowie",
-      date: "16/02",
-      text: "RT si t'es triste",
+      title: "David Bowie, disparition d’une icône",
+      date: "10/01",
+      text: "Artiste caméléon et précurseur aux multiples talents, l'icône britannique de la pop David Bowie disparaît le 10 janvier 2016 à l'âge de 69 ans. Célèbre pour ses alter ego (Ziggy Stardust, The Thin White Duke, Aladdin Sane...), se réinventant entre la soul, l'électro, le rock progressif et la pop, David Robert Jones était l'un des artistes les plus importants de la deuxième moitié du XXe siècle. Son influence s'étendant bien au-delà de la musique. Deux jours avant sa mort, David Bowie sort \"Blackstar\", son album testament, le 26e de sa riche carrière. Comme il chantait dans \"Space Oddity\", lui parti, les étoiles paraissent bien différentes aujourd'hui.",
       video: {
         webm: "./video/bowie.mp4.webm",
         mp4: "./video/bowie.mp4.mp4",
@@ -12,41 +12,19 @@ window.content = [
       }
     },
     question: {
-      ask: "Nombre d'enfants",
+      ask: "Combien d’albums David Bowie a-t-il vendu au cours de sa carrière ?",
       answers: [
-        { text: "3", win: true},
-        { text: "26", win: false}
+        { text: "98 millions", win: false},
+        { text: "144 millions", win: false}
       ],
-      explanation: "Ceci est une explication vis à vis de la réponse fournie. Elle est affichée dans tous les cas",
-    }
-  },
-  {
-    slug: "attentats",
-    article: {
-      title: "Attentats",
-      date: "21/02",
-      text: "Ca fait boum boum boum",
-      video: {
-        webm: "./video/nice.3gp.webm",
-        mp4: "./video/nice.3gp.mp4",
-        png: "./video/nice.3gp.png",
-      }
-    },
-    question: {
-      ask: "Charlie ou pas charlie ?",
-      answers: [
-        { text: "3", win: true},
-        { text: "26", win: false}
-      ],
-      explanation: "Ceci est une explication vis à vis de la réponse fournie. Elle est affichée dans tous les cas",
     }
   },
   {
     slug: "dicaprio",
     article: {
-      title: "Premier oscar pour DiCaprio",
+      title: "Di Caprio enfin oscarisé",
       date: "21/02",
-      text: "On y croyait plus :s",
+      text: "Cette fois c’est la bonne ! Après plusieurs nominations pour ses performances dans  Gilbert Grape, Aviator, Blood Diamond, et Le Loup de Wall Street, Leonardo Di Caprio tient enfin son Oscar. Meilleur acteur pour son interprétation d’Hugo Glass dans le film The Revenant d’Alejandro Gonzalez Inaritu, le Californien a conquis sa récompense de haute lutte au terme de « l’expérience professionnelle la plus difficile de sa vie ». Au cours d’un tournage chaotique en raison de conditions météorologiques déplorables, l’ancienne star de Titanic a notamment dû manger du foie de bison ou nager dans l’eau glacé.",
       video: {
         webm: "./video/dicaprio.mp4.webm",
         mp4: "./video/dicaprio.mp4.mp4",
@@ -54,12 +32,31 @@ window.content = [
       }
     },
     question: {
-      ask: "Charlie ou pas charlie ?",
+      ask: "Quel est l’âge de DiCaprio ?",
       answers: [
-        { text: "3", win: true},
-        { text: "26", win: false}
+        { text: "42 ans", win: true},
+        { text: "48 ans", win: false}
       ],
-      explanation: "Ceci est une explication vis à vis de la réponse fournie. Elle est affichée dans tous les cas",
+    }
+  },
+  {
+    slug: "bruxelle",
+    article: {
+      title: "Bruxelles frappée par le terrorisme",
+      date: "22/03",
+      text: "Engagée dans la coalition internationale contre Daesh, la Belgique est victime le 22 mars 2016 d'une série d'attentats commandités par l'organisation terroriste. Deux kamikazes activent leurs ceintures d'explosifs dans le hall des départs de l'aéroport de Bruxelles-Zavantem à 7h58. Peu après 9h, un troisième djihadiste les imite dans une rame du métro de la capitale belge, au départ de la station Maelbeek, dans le quartier européen. Le bilan est de 32 morts, et plus de 330 blessés. La cellule terroriste qui a commandité les attaques est liée à celle responsable des attentats de Paris du 13 novembre 2015. Les assaillants étaient proches de Salah Abdeslam, membre du commando qui a frappé la capitale française.",
+      video: {
+        webm: "./video/bruxelles.mp4.webm",
+        mp4: "./video/bruxelles.mp4.mp4",
+        png: "./video/bruxelles.mp4.png",
+      }
+    },
+    question: {
+      ask: "De quelle commune de Bruxelles viennent les assaillants ?",
+      answers: [
+        { text: "Schaerbeek", win: true},
+        { text: "Molenbeek", win: false}
+      ],
     }
   },
   {
@@ -77,31 +74,29 @@ window.content = [
     question: {
       ask: "Combien d’héritiers a Prince ?",
       answers: [
-        { text: "15", win: true},
-        { text: "29", win: false}
+        { text: "15", win: false},
+        { text: "29", win: true}
       ],
-      explanation: "Ceci est une explication vis à vis de la réponse fournie. Elle est affichée dans tous les cas",
     }
   },
   {
-    slug: "travail",
+    slug: "euro",
     article: {
-      title: "Loi travail",
-      date: "16/02",
-      text: "Le projet de loi sur la réforme du Travail, porté par la ministre Myriam El Khomri, fait couler beaucoup d’encre. Contesté par les syndicats, les organisations de jeunesse et même au sein de la majorité parlementaire, il n’est pas parvenu à rallier une large partie de la gauche française malgré certaines concessions. Le 21 juillet dernier, le chef du gouvernement Manuel Valls est passé en force, faisant définitivement adopter le texte à l’aide de l’article 49-3 de la Constitution.",
+      title: "La France accueille l’Europe pour un mois de foot et de fête",
+      date: "10/06",
+      text: "Désignée pays-hôte de la compétition en 2010, la France inaugure le grand bal du foot européen : le championnat d'Europe (ou Euro) le 10 juin 2016. Dix métropoles accueillent les équipes et les supporters de 24 nations européennes, un record de participants pour la compétition continentale. La France s'offre une bouffée d'oxygène bienvenue lors d'un mois de fête, de rencontres et de partages. L'excellent parcours des Bleus de Didier Deschamps a prolongé la fête jusqu'à la finale, un mois plus tard. ",
       video: {
-        webm: "./video/travail.mp4.webm",
-        mp4: "./video/travail.mp4.mp4",
-        png: "./video/travail.mp4.png",
+        webm: "./video/euro.mp4.webm",
+        mp4: "./video/euro.mp4.mp4",
+        png: "./video/euro.mp4.png",
       }
     },
     question: {
-      ask: "Qui était le précédent ministre du Travail ?",
+      ask: "Combien de spectateurs étaient présents dans les tribunes des 10 stades de l’Euro ?",
       answers: [
-        { text: "François Rebsamen", win: true},
-        { text: "Michel Sapin", win: false}
+        { text: "Moins de deux millions", win: false},
+        { text: "Plus de deux millions", win: true}
       ],
-      explanation: "Ceci est une explication vis à vis de la réponse fournie. Elle est affichée dans tous les cas",
     }
   },
   {
@@ -126,6 +121,26 @@ window.content = [
     }
   },
   {
+    slug: "nice",
+    article: {
+      title: "Un 14 juillet sous le signe de l'horreur",
+      date: "14/07",
+      text: "30.000 personnes se sont rendues sur la promenade des Anglais à Nice afin d'assister au feu d'artifice, le soir de la fête nationale. A l'issue de ce dernier, un camion fou fonce sur la foule pendant 1.7 km et fait ainsi 86 victimes et 434 blessés. L'auteur de cet acte terroriste est abattu par la police ce qui interrompt ainsi sa course folle. Dès le lendemain, trois jours de deuil national sont décrétés par le président de la République. Cet attentat succède à celui de Magnanville et précède celui de Saint-Etienne du Rouvray.",
+      video: {
+        webm: "./video/nice.mp4.webm",
+        mp4: "./video/nice.mp4.mp4",
+        png: "./video/nice.mp4.png",
+      }
+    },
+    question: {
+      ask: "Combien de fois l’État d'urgence a-t-il été prolongé  ?",
+      answers: [
+        { text: "3 fois", win: false},
+        { text: "5 fois", win: true}
+      ],
+    }
+  },
+  {
     slug: "turquie",
     article: {
       title: "La nuit où le président Erdogan a failli tomber",
@@ -143,9 +158,29 @@ window.content = [
         { text: "Ahmet Davutoglu", win: false},
         { text: "Binali Yildirim", win: true},
       ],
-      explanation: "Ceci est une explication vis à vis de la réponse fournie. Elle est affichée dans tous les cas",
     }
   },
+  {
+    slug: "travail",
+    article: {
+      title: "Loi travail",
+      date: "21/07",
+      text: "Le projet de loi sur la réforme du Travail, porté par la ministre Myriam El Khomri, fait couler beaucoup d’encre. Contesté par les syndicats, les organisations de jeunesse et même au sein de la majorité parlementaire, il n’est pas parvenu à rallier une large partie de la gauche française malgré certaines concessions. Le 21 juillet dernier, le chef du gouvernement Manuel Valls est passé en force, faisant définitivement adopter le texte à l’aide de l’article 49-3 de la Constitution.",
+      video: {
+        webm: "./video/travail.mp4.webm",
+        mp4: "./video/travail.mp4.mp4",
+        png: "./video/travail.mp4.png",
+      }
+    },
+    question: {
+      ask: "Qui était le précédent ministre du Travail ?",
+      answers: [
+        { text: "François Rebsamen", win: true},
+        { text: "Michel Sapin", win: false}
+      ],
+    }
+  },
+
   {
     slug: "jo",
     article: {
@@ -153,9 +188,9 @@ window.content = [
       date: "05/08",
       text: "Les Jeux olympiques de Rio ont débuté le 5 août 2016 dans le mythique stade Maracana. Cette 31e Olympiade de l’ère moderne est la première à se disputer sur le continent sud-américain. En dépit des doutes sur son organisation, notamment à cause des tensions politiques liées à la destitution de Dilma Rousseff, Rio De Janeiro a malgré tout su répondre aux attentes du CIO. Ces JO ont marqué les esprits par la présence historique d’une équipe uniquement constituée de réfugiés, ainsi que par ses cérémonies d’ouverture et de clôture hautes en couleurs, montrant le meilleur du Brésil et du sport." ,
       video: {
-        webm: "./video/JO.3gp.webm",
-        mp4: "./video/JO.3gp.mp4",
-        png: "./video/JO.3gp.png",
+        webm: "./video/jo.mp4.webm",
+        mp4: "./video/jo.mp4.mp4",
+        png: "./video/jo.mp4.png",
       }
     },
     question: {
@@ -164,10 +199,28 @@ window.content = [
         { text: "196", win: false},
         { text: "204", win: true},
       ],
-      explanation: "Ceci est une explication vis à vis de la réponse fournie. Elle est affichée dans tous les cas",
     }
   },
-
+  {
+    slug: "jo",
+    article: {
+      title: "Bob Dylan, premier musicien prix Nobel de littérature",
+      date: "13/10",
+      text: "Figure de la musique populaire, Bob Dylan, de son vrai nom Robert Allen Zimmerman, a reçu le prix Nobel de littérature pour avoir « créé dans le cadre de la grande tradition de la musique américaine de nouveaux modes d'expression poétique ». L'artiste de 75 ans, succède ainsi à la Biélorusse Svetlana Alexievitch. L'auteur-compositeur-interprète a qualifié cette récompense de « stupéfiante, incroyable » mais ne s'est pourtant pas rendu à la cérémonie prétextant d'autres obligations." ,
+      video: {
+        webm: "./video/dylan.mp4.webm",
+        mp4: "./video/dylan.mp4.mp4",
+        png: "./video/dylan.mp4.png",
+      }
+    },
+    question: {
+      ask: "Quel est le titre du dernier album de Bob Dylan ?",
+      answers: [
+        { text: "Fallen Angels", win: false},
+        { text: "Modern Times", win: true},
+      ],
+    }
+  },
   {
     slug: "trump",
     article: {
@@ -186,7 +239,6 @@ window.content = [
         { text: "47,30%", win: true},
         { text: " 51,42%", win: false}
       ],
-      explanation: "Ceci est une explication vis à vis de la réponse fournie. Elle est affichée dans tous les cas",
     }
   },
   {
@@ -196,9 +248,9 @@ window.content = [
       date: "17/11",
       text: "Après sept années de préparation, Thomas Pesquet a décollé le 17 novembre du Kazakhstan pour effectuer une mission spatiale de six mois, réalisant ainsi « un rêve de gosse ». En franchissant la barre des 100 km d'altitude, il est devenu le 10e astronaute français mais également le plus jeune astronaute européen. Lors de cette mission Proxima, il mènera une soixantaine d'expériences scientifiques pour le compte de l'Agence spatiale européenne et du CNES.",
       video: {
-        webm: "./video/Thomas.3gp.webm",
-        mp4: "./video/Thomas.3gp.mp4",
-        png: "./video/Thomas.3gp.png",
+        webm: "./video/thomas.mp4.webm",
+        mp4: "./video/thomas.mp4.mp4",
+        png: "./video/thomas.mp4.png",
       }
     },
     question: {
@@ -225,10 +277,9 @@ window.content = [
     question: {
       ask: "Depuis combien d’années Fidel Castro n’est plus président ?",
       answers: [
-        { text: "10 ans", win: false},
-        { text: "15 ans", win: true}
+        { text: "10 ans", win: true},
+        { text: "15 ans", win: false}
       ],
-      explanation: "Ceci est une explication vis à vis de la réponse fournie. Elle est affichée dans tous les cas",
     }
   },
   {
@@ -249,13 +300,12 @@ window.content = [
         { text: "4,38 millions", win: true},
         { text: "4,29 millions", win: false}
       ],
-      explanation: "Ceci est une explication vis à vis de la réponse fournie. Elle est affichée dans tous les cas",
     }
   },
   {
     slug: "hollande",
     article: {
-      title: "Résignation François Hollande",
+      title: "Pas de second mandat pour le chef de l'État",
       date: "01/12",
       text: "François Hollande ne briguera pas un second quinquennat. Bien qu’attendue, en raison de la cote d’impopularité record du Président, cette décision n’en constitue pas moins une première dans l’Histoire de la Ve République. Aucun chef d’Etat français n’avait encore renoncé à se présenter à sa propre succession. Cette décision a rapidement été suivie par la démission de Manuel Valls du poste de Premier ministre, qui se lance dans la course à l’élection présidentielle.",
       video: {
@@ -270,7 +320,6 @@ window.content = [
         { text: "9° Président de la Ve République", win: false},
         { text: "8° Président de la Ve République", win: true}
       ],
-      explanation: "Ceci est une explication vis à vis de la réponse fournie. Elle est affichée dans tous les cas",
     }
   },
 ];
