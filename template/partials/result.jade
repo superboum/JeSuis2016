@@ -5,5 +5,5 @@
   .pure-g(style="height: 100%")
     .pure-u-1
       .center
-        pre {{ JSON.stringify(content) }}
-        h1 100%
+        pre {{ JSON.stringify($root.myAnswers) }}
+        h1 {{ goodAnswers }}/{{ content.length }}

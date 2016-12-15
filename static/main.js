@@ -69,19 +69,21 @@ var app = angular.module('jesuis', ['ngRoute'])
       selectedVideo.play();
     };
   }])
-  .controller('ResultController', ['$scope', '$location', '$interval', function($scope, $location, $interval) {
+  .controller('ResultController', ['$scope', '$location', '$interval', '$rootScope', function($scope, $location, $interval, $rootScope) {
     var nbPics = 3;
-    var pickPic = function() { return window.content[Math.floor(Math.random() * window.content.length)].article.video.png;  };
     $scope.content = window.content;
-    $scope.pics = ["", "", ""];
-    for (var i=0; i<nbPics; i++) { $scope.pics[i] = pickPic(); }
+    var pickPic = function() { return window.content[Math.floor(Math.random() * window.content.length)].article.video.png;  };
+    $scope.pics = [window.content[0].article.video.png, window.content[1].article.video.png, window.content[2].article.video.png];
 
-    console.log($scope.pics);
     var stop = $interval(function() {
       var select = Math.floor(Math.random() * $scope.pics.length);
       var pic = pickPic();
       if ($scope.pics.indexOf(pic) == -1) $scope.pics[select] = pic
     },1000)
+
+    console.log($rootScope.myAnswers);
+    var getGoodAnswers = function(obj) { res = 0; for(var elem in obj) { if(obj.hasOwnProperty(elem) && obj[elem]) res++; } return res};
+    $scope.goodAnswers = getGoodAnswers($rootScope.myAnswers);
   }])
 ;
 
