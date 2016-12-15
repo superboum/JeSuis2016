@@ -333,15 +333,26 @@ p {
 
 }
 
-.horizontal_line .triangle{
+.top .horizontal_line .triangle{
   border-width: 6px 0 6px 10.4px;
   position: absolute;
   right: -5px;
-  top:-6px;
+  top:-5px;
   border-color: transparent transparent transparent #aaa;
   z-index: 10000;
 
 }
+
+.bottom .horizontal_line .triangle{
+  border-width: 6px 0 6px 10.4px;
+  position: absolute;
+  right: -5px;
+  top:-6.8px;
+  border-color: transparent transparent transparent #aaa;
+  z-index: 10000;
+
+}
+
 
 /* Ligne border */
 
