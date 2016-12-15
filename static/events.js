@@ -46,9 +46,9 @@ window.content = [
       date: "22/03",
       text: "Engagée dans la coalition internationale contre Daesh, la Belgique est victime le 22 mars 2016 d'une série d'attentats commandités par l'organisation terroriste. Deux kamikazes activent leurs ceintures d'explosifs dans le hall des départs de l'aéroport de Bruxelles-Zavantem à 7h58. Peu après 9h, un troisième djihadiste les imite dans une rame du métro de la capitale belge, au départ de la station Maelbeek, dans le quartier européen. Le bilan est de 32 morts, et plus de 330 blessés. La cellule terroriste qui a commandité les attaques est liée à celle responsable des attentats de Paris du 13 novembre 2015. Les assaillants étaient proches de Salah Abdeslam, membre du commando qui a frappé la capitale française.",
       video: {
-        webm: "./video/dicaprio.mp4.webm",
-        mp4: "./video/dicaprio.mp4.mp4",
-        png: "./video/dicaprio.mp4.png",
+        webm: "./video/bruxelles.mp4.webm",
+        mp4: "./video/bruxelles.mp4.mp4",
+        png: "./video/bruxelles.mp4.png",
       }
     },
     question: {
