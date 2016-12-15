@@ -202,7 +202,7 @@ window.content = [
     }
   },
   {
-    slug: "jo",
+    slug: "dylan",
     article: {
       title: "Bob Dylan, premier musicien prix Nobel de littérature",
       date: "13/10",
