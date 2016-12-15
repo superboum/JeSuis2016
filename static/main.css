@@ -106,6 +106,25 @@ html, body, .view {
   text-decoration: none;
 }
 
+.super_bouton{
+  border-radius: 20px;
+  text-align: center;
+  margin: 10px;
+  padding: 10px;
+  border: 1px solid #aaa;
+  font-size: 1.5em;
+  display: block;
+  color: #fff;
+  text-decoration: none;
+}
+
+.super_bouton:hover{
+  background-color: rgb(255, 0, 27);
+  border-color: rgb(255, 0, 27);
+  color: #fff;
+  text-decoration: none;
+}
+
 /* Circle */
 
 .bottom .placeholder{

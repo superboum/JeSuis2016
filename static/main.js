@@ -17,6 +17,11 @@ var app = angular.module('jesuis', ['ngRoute'])
         controller: 'ResultController',
         reloadOnSearch: false
       })
+      .when('/credits', {
+        templateUrl: 'partials/credits.html',
+        controller: 'CreditsController',
+        reloadOnSearch: false
+      })
       .otherwise({
         redirectTo: '/init'
       })
@@ -100,6 +105,26 @@ var app = angular.module('jesuis', ['ngRoute'])
     console.log($rootScope.myAnswers);
     var getGoodAnswers = function(obj) { res = 0; for(var elem in obj) { if(obj.hasOwnProperty(elem) && obj[elem]) res++; } return res};
     $scope.goodAnswers = getGoodAnswers($rootScope.myAnswers);
+    $scope.exit=function(){
+      console.log("exit function");
+      if (document.cancelFullScreen) {
+      document.cancelFullScreen();
+      }
+      else if (document.mozCancelFullScreen) {
+      document.mozCancelFullScreen();
+      }
+      else if (document.webkitCancelFullScreen) {
+      document.webkitCancelFullScreen();
+      }
+      $location.path('/');
+
+    };
+
+    $scope.goCredits=function(){
+      $location.path('/credits');
+    }
+  }])
+  .controller('CreditsController',['$scope','$location',function($scope,$location){
     $scope.exit=function(){
       console.log("exit function");
       if (document.cancelFullScreen) {
