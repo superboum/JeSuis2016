@@ -10,6 +10,11 @@ var app = angular.module('jesuis', ['ngRoute','duScroll'])
         controller: 'EventController',
         reloadOnSearch: false
       })
+      .when('/result', {
+        templateUrl: 'partials/result.html',
+        controller: 'ResultController',
+        reloadOnSearch: false
+      })
       .otherwise({
         redirectTo: '/init'
       })
@@ -48,7 +53,7 @@ var app = angular.module('jesuis', ['ngRoute','duScroll'])
       $rootScope.myAnswers[window.content[id].slug] = window.content[id].question.answers[value].win;
     };
     $scope.next = function(id) {
-      if (id >= window.content.length) return;
+      if (id >= window.content.length) { $location.path('/result'); return; }
 
       var selectedVideo = document.getElementById("video-"+id);
       window.content.forEach(function(elem, index) {
@@ -67,5 +72,21 @@ var app = angular.module('jesuis', ['ngRoute','duScroll'])
       //$anchorScroll();
       selectedVideo.play();
     };
+  }])
+  .controller('ResultController', ['$scope', '$location', '$interval', '$rootScope', function($scope, $location, $interval, $rootScope) {
+    var nbPics = 3;
+    $scope.content = window.content;
+    var pickPic = function() { return window.content[Math.floor(Math.random() * window.content.length)].article.video.png;  };
+    $scope.pics = [window.content[0].article.video.png, window.content[1].article.video.png, window.content[2].article.video.png];
+
+    var stop = $interval(function() {
+      var select = Math.floor(Math.random() * $scope.pics.length);
+      var pic = pickPic();
+      if ($scope.pics.indexOf(pic) == -1) $scope.pics[select] = pic
+    },1000)
+
+    console.log($rootScope.myAnswers);
+    var getGoodAnswers = function(obj) { res = 0; for(var elem in obj) { if(obj.hasOwnProperty(elem) && obj[elem]) res++; } return res};
+    $scope.goodAnswers = getGoodAnswers($rootScope.myAnswers);
   }])
 ;

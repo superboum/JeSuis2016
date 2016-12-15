@@ -1,0 +1,9 @@
+.end
+  .elem(ng-repeat="pic in pics" style="background-image: url('{{ pic }}'); ")
+
+.result
+  .pure-g(style="height: 100%")
+    .pure-u-1
+      .center
+        pre {{ JSON.stringify($root.myAnswers) }}
+        h1 {{ goodAnswers }}/{{ content.length }}

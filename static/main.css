@@ -300,3 +300,43 @@ video { display: block; }
 .space {
   padding: 6%;
 }
+
+/* END - RESULT */
+.end {
+  background-color: #000;
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  flex-direction: row;
+  min-width:100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: -100;
+}
+
+.end .elem {
+  flex-grow: 1;
+  background-size: cover;
+  background-position: center center;
+}
+
+.result {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(50,0,0,0.6);
+  color: #fff;
+}
+
+.result h1 {
+  font-size: 10em;
+}
+
+.result .center {
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  width:100%;
+  height:100%;
+}
