@@ -17,7 +17,6 @@ window.content = [
         { text: "3", win: true},
         { text: "26", win: false}
       ],
-      explanation: "Ceci est une explication vis à vis de la réponse fournie. Elle est affichée dans tous les cas",
     }
   },
   {
@@ -38,15 +37,14 @@ window.content = [
         { text: "3", win: true},
         { text: "26", win: false}
       ],
-      explanation: "Ceci est une explication vis à vis de la réponse fournie. Elle est affichée dans tous les cas",
     }
   },
   {
     slug: "dicaprio",
     article: {
-      title: "Premier oscar pour DiCaprio",
+      title: "Di Caprio enfin oscarisé",
       date: "21/02",
-      text: "On y croyait plus :s",
+      text: "Cette fois c’est la bonne ! Après plusieurs nominations pour ses performances dans  Gilbert Grape, Aviator, Blood Diamond, et Le Loup de Wall Street, Leonardo Di Caprio tient enfin son Oscar. Meilleur acteur pour son interprétation d’Hugo Glass dans le film The Revenant d’Alejandro Gonzalez Inaritu, le Californien a conquis sa récompense de haute lutte au terme de « l’expérience professionnelle la plus difficile de sa vie ». Au cours d’un tournage chaotique en raison de conditions météorologiques déplorables, l’ancienne star de Titanic a notamment dû manger du foie de bison ou nager dans l’eau glacé.",
       video: {
         webm: "./video/dicaprio.mp4.webm",
         mp4: "./video/dicaprio.mp4.mp4",
@@ -54,12 +52,11 @@ window.content = [
       }
     },
     question: {
-      ask: "Charlie ou pas charlie ?",
+      ask: "Quel est l’âge de DiCaprio ?",
       answers: [
-        { text: "3", win: true},
-        { text: "26", win: false}
+        { text: "42 ans", win: true},
+        { text: "48 ans", win: false}
       ],
-      explanation: "Ceci est une explication vis à vis de la réponse fournie. Elle est affichée dans tous les cas",
     }
   },
   {
@@ -80,7 +77,6 @@ window.content = [
         { text: "15", win: true},
         { text: "29", win: false}
       ],
-      explanation: "Ceci est une explication vis à vis de la réponse fournie. Elle est affichée dans tous les cas",
     }
   },
   {
@@ -101,7 +97,6 @@ window.content = [
         { text: "François Rebsamen", win: true},
         { text: "Michel Sapin", win: false}
       ],
-      explanation: "Ceci est une explication vis à vis de la réponse fournie. Elle est affichée dans tous les cas",
     }
   },
   {
@@ -143,7 +138,6 @@ window.content = [
         { text: "Ahmet Davutoglu", win: false},
         { text: "Binali Yildirim", win: true},
       ],
-      explanation: "Ceci est une explication vis à vis de la réponse fournie. Elle est affichée dans tous les cas",
     }
   },
   {
@@ -164,10 +158,28 @@ window.content = [
         { text: "196", win: false},
         { text: "204", win: true},
       ],
-      explanation: "Ceci est une explication vis à vis de la réponse fournie. Elle est affichée dans tous les cas",
     }
   },
-
+  {
+    slug: "jo",
+    article: {
+      title: "Bob Dylan, premier musicien prix Nobel de littérature",
+      date: "13/10",
+      text: "Figure de la musique populaire, Bob Dylan, de son vrai nom Robert Allen Zimmerman, a reçu le prix Nobel de littérature pour avoir « créé dans le cadre de la grande tradition de la musique américaine de nouveaux modes d'expression poétique ». L'artiste de 75 ans, succède ainsi à la Biélorusse Svetlana Alexievitch. L'auteur-compositeur-interprète a qualifié cette récompense de « stupéfiante, incroyable » mais ne s'est pourtant pas rendu à la cérémonie prétextant d'autres obligations." ,
+      video: {
+        webm: "./video/JO.3gp.webm",
+        mp4: "./video/JO.3gp.mp4",
+        png: "./video/JO.3gp.png",
+      }
+    },
+    question: {
+      ask: "Quel est le titre du dernier album de Bob Dylan ?",
+      answers: [
+        { text: "Fallen Angels", win: false},
+        { text: "Modern Times", win: true},
+      ],
+    }
+  },
   {
     slug: "trump",
     article: {
@@ -186,7 +198,6 @@ window.content = [
         { text: "47,30%", win: true},
         { text: " 51,42%", win: false}
       ],
-      explanation: "Ceci est une explication vis à vis de la réponse fournie. Elle est affichée dans tous les cas",
     }
   },
   {
@@ -228,7 +239,6 @@ window.content = [
         { text: "10 ans", win: false},
         { text: "15 ans", win: true}
       ],
-      explanation: "Ceci est une explication vis à vis de la réponse fournie. Elle est affichée dans tous les cas",
     }
   },
   {
@@ -249,7 +259,6 @@ window.content = [
         { text: "4,38 millions", win: true},
         { text: "4,29 millions", win: false}
       ],
-      explanation: "Ceci est une explication vis à vis de la réponse fournie. Elle est affichée dans tous les cas",
     }
   },
   {
@@ -270,7 +279,6 @@ window.content = [
         { text: "9° Président de la Ve République", win: false},
         { text: "8° Président de la Ve République", win: true}
       ],
-      explanation: "Ceci est une explication vis à vis de la réponse fournie. Elle est affichée dans tous les cas",
     }
   },
 ];
