@@ -145,7 +145,7 @@ window.content = [
     article: {
       title: "La nuit où le président Erdogan a failli tomber",
       date: "15/07",
-      text: "Dans la nuit du vendredi 15 au samedi 16 juillet, un coup d’État militaire en Turquie est lancé avant d’avorter quelques heures plus tard. La République turque a connu trois autres putschs de l’armée en 1960, 1971 et 1980 mais c’est le premier échec. L’opération fait plus de 290 morts. Fethullah Gülen, exilé aux Etats-Unis serait le président Recep Tayyip Erdogan, le responsable du putsch. L’Etat d’urgence ainsi qu’une vaste purge dans l’enseignement, les médias et différentes administrations ont suivis.",
+      text: "Dans la nuit du vendredi 15 au samedi 16 juillet, un coup d’État militaire en Turquie est lancé avant d’avorter quelques heures plus tard. La République turque a connu trois autres putschs de l’armée en 1960, 1971 et 1980 mais c’est le premier échec. L’opération fait plus de 290 morts. Fethullah Gülen, exilé aux Etats-Unis serait le président Recep Tayyip Erdogan, le responsable du putsch. L’état d’urgence ainsi qu’une vaste purge dans l’enseignement, les médias et différentes administrations ont suivi.",
       video: {
         webm: "./video/turquie.mp4.webm",
         mp4: "./video/turquie.mp4.mp4",
@@ -226,7 +226,7 @@ window.content = [
     article: {
       title: "La surprise Donald Trump",
       date: "08/11",
-      text: "Le candidat républicain Donald Trump a été élu 45e président des États-Unis et succèdera officiellement à Barack Obama à la Maison-Blanche le 20 janvier 2017. Le magnat de l’immobilier a créé la surprise face à Hillary Clinton malgré ses multiples frasques. Le milliardaire s’est illustré dans la campagne, en promettant notamment de construire un mur à la frontière mexicaine, en prononçant des discours sexistes ou en émettant des opinions climatosceptiques.",
+      text: "Le candidat républicain Donald Trump a été élu 45e président des États-Unis et succédera officiellement à Barack Obama à la Maison-Blanche le 20 janvier 2017. Le magnat de l’immobilier a créé la surprise face à Hillary Clinton malgré ses multiples frasques. Le milliardaire s’est illustré dans la campagne, en promettant notamment de construire un mur à la frontière mexicaine, en prononçant des discours sexistes ou en émettant des opinions climatosceptiques.",
       video: {
         webm: "./video/trump.mp4.webm",
         mp4: "./video/trump.mp4.mp4",
