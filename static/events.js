@@ -15,7 +15,7 @@ window.content = [
       ask: "Combien d’albums David Bowie a-t-il vendu au cours de sa carrière ?",
       answers: [
         { text: "98 millions", win: false},
-        { text: "144 millions", win: false}
+        { text: "144 millions", win: true}
       ],
     }
   },
@@ -64,7 +64,7 @@ window.content = [
     article: {
       title: "Prince : disparition du kid de Minneapolis",
       date: "27/04",
-      text: "Prince, la voix de la génération funk-rock, est décédé le 21 avril 2016. “The king of love” comme il aimait à s’appeler a été retrouvé inerte à l’âge de 57 ans dans sa résidence du Minnesota. Prince Rogers Nelson, de son vrai nom a succombé, à une overdose de Fentanyl, un opiacé de synthèse. Artiste à succès ayant vendu 80 millions d’albums, il  laisse des millions de fans orphelins derrière lui.",
+      text: "Prince, la voix de la génération funk-rock, est décédé le 21 avril 2016. “The king of love” comme il aimait à s’appeler a été retrouvé inerte à l’âge de 57 ans dans sa résidence du Minnesota. Prince Rogers Nelson, de son vrai nom, a succombé, à une overdose de Fentanyl, un opiacé de synthèse. Artiste à succès ayant vendu 80 millions d’albums, il  laisse des millions de fans orphelins derrière lui.",
       video: {
         webm: "./video/Prince.mp4.webm",
         mp4: "./video/Prince.mp4.mp4",
