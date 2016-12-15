@@ -127,9 +127,9 @@ window.content = [
       date: "14/07",
       text: "30.000 personnes se sont rendues sur la promenade des Anglais à Nice afin d'assister au feu d'artifice, le soir de la fête nationale. A l'issue de ce dernier, un camion fou fonce sur la foule pendant 1.7 km et fait ainsi 86 victimes et 434 blessés. L'auteur de cet acte terroriste est abattu par la police ce qui interrompt ainsi sa course folle. Dès le lendemain, trois jours de deuil national sont décrétés par le président de la République. Cet attentat succède à celui de Magnanville et précède celui de Saint-Etienne du Rouvray.",
       video: {
-        webm: "./video/nice.3gp.webm",
-        mp4: "./video/nice.3gp.mp4",
-        png: "./video/nice.3gp.png",
+        webm: "./video/nice.mp4.webm",
+        mp4: "./video/nice.mp4.mp4",
+        png: "./video/nice.mp4.png",
       }
     },
     question: {
@@ -188,9 +188,9 @@ window.content = [
       date: "05/08",
       text: "Les Jeux olympiques de Rio ont débuté le 5 août 2016 dans le mythique stade Maracana. Cette 31e Olympiade de l’ère moderne est la première à se disputer sur le continent sud-américain. En dépit des doutes sur son organisation, notamment à cause des tensions politiques liées à la destitution de Dilma Rousseff, Rio De Janeiro a malgré tout su répondre aux attentes du CIO. Ces JO ont marqué les esprits par la présence historique d’une équipe uniquement constituée de réfugiés, ainsi que par ses cérémonies d’ouverture et de clôture hautes en couleurs, montrant le meilleur du Brésil et du sport." ,
       video: {
-        webm: "./video/JO.3gp.webm",
-        mp4: "./video/JO.3gp.mp4",
-        png: "./video/JO.3gp.png",
+        webm: "./video/jo.mp4.webm",
+        mp4: "./video/jo.mp4.mp4",
+        png: "./video/jo.mp4.png",
       }
     },
     question: {
@@ -248,9 +248,9 @@ window.content = [
       date: "17/11",
       text: "Après sept années de préparation, Thomas Pesquet a décollé le 17 novembre du Kazakhstan pour effectuer une mission spatiale de six mois, réalisant ainsi « un rêve de gosse ». En franchissant la barre des 100 km d'altitude, il est devenu le 10e astronaute français mais également le plus jeune astronaute européen. Lors de cette mission Proxima, il mènera une soixantaine d'expériences scientifiques pour le compte de l'Agence spatiale européenne et du CNES.",
       video: {
-        webm: "./video/Thomas.3gp.webm",
-        mp4: "./video/Thomas.3gp.mp4",
-        png: "./video/Thomas.3gp.png",
+        webm: "./video/thomas.mp4.webm",
+        mp4: "./video/thomas.mp4.mp4",
+        png: "./video/thomas.mp4.png",
       }
     },
     question: {
