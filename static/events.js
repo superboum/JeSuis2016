@@ -63,7 +63,7 @@ window.content = [
     slug: "prince",
     article: {
       title: "Prince : disparition du kid de Minneapolis",
-      date: "27/04",
+      date: "21/04",
       text: "Prince, la voix de la génération funk-rock, est décédé le 21 avril 2016. “The king of love” comme il aimait à s’appeler a été retrouvé inerte à l’âge de 57 ans dans sa résidence du Minnesota. Prince Rogers Nelson, de son vrai nom, a succombé, à une overdose de Fentanyl, un opiacé de synthèse. Artiste à succès ayant vendu 80 millions d’albums, il  laisse des millions de fans orphelins derrière lui.",
       video: {
         webm: "./video/Prince.mp4.webm",
@@ -163,7 +163,7 @@ window.content = [
   {
     slug: "travail",
     article: {
-      title: "Loi travail",
+      title: "La loi travail passée en force",
       date: "21/07",
       text: "Le projet de loi sur la réforme du Travail, porté par la ministre Myriam El Khomri, fait couler beaucoup d’encre. Contesté par les syndicats, les organisations de jeunesse et même au sein de la majorité parlementaire, il n’est pas parvenu à rallier une large partie de la gauche française malgré certaines concessions. Le 21 juillet dernier, le chef du gouvernement Manuel Valls est passé en force, faisant définitivement adopter le texte à l’aide de l’article 49-3 de la Constitution.",
       video: {
@@ -202,7 +202,7 @@ window.content = [
     }
   },
   {
-    slug: "jo",
+    slug: "dylan",
     article: {
       title: "Bob Dylan, premier musicien prix Nobel de littérature",
       date: "13/10",
