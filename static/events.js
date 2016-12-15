@@ -237,8 +237,8 @@ window.content = [
     question: {
       ask: "Depuis combien d’années Fidel Castro n’est plus président ?",
       answers: [
-        { text: "10 ans", win: false},
-        { text: "15 ans", win: true}
+        { text: "10 ans", win: true},
+        { text: "15 ans", win: false}
       ],
     }
   },
