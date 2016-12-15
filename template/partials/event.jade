@@ -53,6 +53,7 @@ video.bgvid(ng-repeat="elem in content" ng-show="$index == selected_content", mu
   .fixedbutton(ng-click="exit()")
     .close(ng-click="exit()")
   div(style="display:flex; height: 50%; width: auto;")
+    .event.tiny
     .event.small
       .space.inside(ng-class="{activated: selected_content==-1 }")
         h1 Top16
@@ -67,5 +68,7 @@ video.bgvid(ng-repeat="elem in content" ng-show="$index == selected_content", mu
       +board("top")
 
   div(style="display:flex; height: 50%; width: auto")
+    .event.tiny
     .event.large.bottom(ng-repeat="elem in content_bottom")
       +board("bottom")
+    .event.small
