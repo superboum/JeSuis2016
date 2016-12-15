@@ -60,6 +60,8 @@ html, body, .view {
 
 .event .inside {
   opacity: 0.2;
+  overflow: hidden;
+  height: 100%;
 }
 
 .event .inside.activated {
