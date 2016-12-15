@@ -20,26 +20,6 @@ window.content = [
     }
   },
   {
-    slug: "attentats",
-    article: {
-      title: "Attentats",
-      date: "21/02",
-      text: "Ca fait boum boum boum",
-      video: {
-        webm: "./video/nice.3gp.webm",
-        mp4: "./video/nice.3gp.mp4",
-        png: "./video/nice.3gp.png",
-      }
-    },
-    question: {
-      ask: "Charlie ou pas charlie ?",
-      answers: [
-        { text: "3", win: true},
-        { text: "26", win: false}
-      ],
-    }
-  },
-  {
     slug: "dicaprio",
     article: {
       title: "Di Caprio enfin oscarisé",
@@ -98,6 +78,26 @@ window.content = [
         { text: "28", win: true}
       ],
       explanation: "Ceci est une explication vis à vis de la réponse fournie. Elle est affichée dans tous les cas",
+    }
+  },
+  {
+    slug: "nice",
+    article: {
+      title: "Un 14 juillet sous le signe de l'horreur",
+      date: "14/07",
+      text: "30.000 personnes se sont rendues sur la promenade des Anglais à Nice afin d'assister au feu d'artifice, le soir de la fête nationale. A l'issue de ce dernier, un camion fou fonce sur la foule pendant 1.7 km et fait ainsi 86 victimes et 434 blessés. L'auteur de cet acte terroriste est abattu par la police ce qui interrompt ainsi sa course folle. Dès le lendemain, trois jours de deuil national sont décrétés par le président de la République. Cet attentat succède à celui de Magnanville et précède celui de Saint-Etienne du Rouvray.",
+      video: {
+        webm: "./video/nice.3gp.webm",
+        mp4: "./video/nice.3gp.mp4",
+        png: "./video/nice.3gp.png",
+      }
+    },
+    question: {
+      ask: "Combien de fois l’État d'urgence a-t-il été prolongé  ?",
+      answers: [
+        { text: "3 fois", win: false},
+        { text: "5 fois", win: true}
+      ],
     }
   },
   {
