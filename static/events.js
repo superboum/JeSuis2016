@@ -80,26 +80,6 @@ window.content = [
     }
   },
   {
-    slug: "travail",
-    article: {
-      title: "Loi travail",
-      date: "16/02",
-      text: "Le projet de loi sur la réforme du Travail, porté par la ministre Myriam El Khomri, fait couler beaucoup d’encre. Contesté par les syndicats, les organisations de jeunesse et même au sein de la majorité parlementaire, il n’est pas parvenu à rallier une large partie de la gauche française malgré certaines concessions. Le 21 juillet dernier, le chef du gouvernement Manuel Valls est passé en force, faisant définitivement adopter le texte à l’aide de l’article 49-3 de la Constitution.",
-      video: {
-        webm: "./video/travail.mp4.webm",
-        mp4: "./video/travail.mp4.mp4",
-        png: "./video/travail.mp4.png",
-      }
-    },
-    question: {
-      ask: "Qui était le précédent ministre du Travail ?",
-      answers: [
-        { text: "François Rebsamen", win: true},
-        { text: "Michel Sapin", win: false}
-      ],
-    }
-  },
-  {
     slug: "brexit",
     article: {
       title: "Londres demande le divorce",
@@ -140,6 +120,27 @@ window.content = [
       ],
     }
   },
+  {
+    slug: "travail",
+    article: {
+      title: "Loi travail",
+      date: "21/07",
+      text: "Le projet de loi sur la réforme du Travail, porté par la ministre Myriam El Khomri, fait couler beaucoup d’encre. Contesté par les syndicats, les organisations de jeunesse et même au sein de la majorité parlementaire, il n’est pas parvenu à rallier une large partie de la gauche française malgré certaines concessions. Le 21 juillet dernier, le chef du gouvernement Manuel Valls est passé en force, faisant définitivement adopter le texte à l’aide de l’article 49-3 de la Constitution.",
+      video: {
+        webm: "./video/travail.mp4.webm",
+        mp4: "./video/travail.mp4.mp4",
+        png: "./video/travail.mp4.png",
+      }
+    },
+    question: {
+      ask: "Qui était le précédent ministre du Travail ?",
+      answers: [
+        { text: "François Rebsamen", win: true},
+        { text: "Michel Sapin", win: false}
+      ],
+    }
+  },
+
   {
     slug: "jo",
     article: {
