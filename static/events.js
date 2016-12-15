@@ -2,9 +2,9 @@ window.content = [
   {
     slug: "bowie",
     article: {
-      title: "Bowie",
-      date: "16/02",
-      text: "RT si t'es triste",
+      title: "David Bowie, disparition d’une icône",
+      date: "10/01",
+      text: "Artiste caméléon et précurseur aux multiples talents, l'icône britannique de la pop David Bowie disparaît le 10 janvier 2016 à l'âge de 69 ans. Célèbre pour ses alter ego (Ziggy Stardust, The Thin White Duke, Aladdin Sane...), se réinventant entre la soul, l'électro, le rock progressif et la pop, David Robert Jones était l'un des artistes les plus importants de la deuxième moitié du XXe siècle. Son influence s'étendant bien au-delà de la musique. Deux jours avant sa mort, David Bowie sort \"Blackstar\", son album testament, le 26e de sa riche carrière. Comme il chantait dans \"Space Oddity\", lui parti, les étoiles paraissent bien différentes aujourd'hui.",
       video: {
         webm: "./video/bowie.mp4.webm",
         mp4: "./video/bowie.mp4.mp4",
@@ -12,10 +12,10 @@ window.content = [
       }
     },
     question: {
-      ask: "Nombre d'enfants",
+      ask: "Combien d’albums David Bowie a-t-il vendu au cours de sa carrière ?",
       answers: [
-        { text: "3", win: true},
-        { text: "26", win: false}
+        { text: "98 millions", win: false},
+        { text: "144 millions", win: false}
       ],
     }
   },
@@ -40,6 +40,26 @@ window.content = [
     }
   },
   {
+    slug: "bruxelle",
+    article: {
+      title: "Bruxelles frappée par le terrorisme",
+      date: "22/03",
+      text: "Engagée dans la coalition internationale contre Daesh, la Belgique est victime le 22 mars 2016 d'une série d'attentats commandités par l'organisation terroriste. Deux kamikazes activent leurs ceintures d'explosifs dans le hall des départs de l'aéroport de Bruxelles-Zavantem à 7h58. Peu après 9h, un troisième djihadiste les imite dans une rame du métro de la capitale belge, au départ de la station Maelbeek, dans le quartier européen. Le bilan est de 32 morts, et plus de 330 blessés. La cellule terroriste qui a commandité les attaques est liée à celle responsable des attentats de Paris du 13 novembre 2015. Les assaillants étaient proches de Salah Abdeslam, membre du commando qui a frappé la capitale française.",
+      video: {
+        webm: "./video/dicaprio.mp4.webm",
+        mp4: "./video/dicaprio.mp4.mp4",
+        png: "./video/dicaprio.mp4.png",
+      }
+    },
+    question: {
+      ask: "De quelle commune de Bruxelles viennent les assaillants ?",
+      answers: [
+        { text: "Schaerbeek", win: true},
+        { text: "Molenbeek", win: false}
+      ],
+    }
+  },
+  {
     slug: "prince",
     article: {
       title: "Prince : disparition d’un artiste d’exception",
@@ -54,8 +74,28 @@ window.content = [
     question: {
       ask: "Combien d’héritiers a Prince ?",
       answers: [
-        { text: "15", win: true},
-        { text: "29", win: false}
+        { text: "15", win: false},
+        { text: "29", win: true}
+      ],
+    }
+  },
+  {
+    slug: "euro",
+    article: {
+      title: "La France accueille l’Europe pour un mois de foot et de fête",
+      date: "10/06",
+      text: "Désignée pays-hôte de la compétition en 2010, la France inaugure le grand bal du foot européen : le championnat d'Europe (ou Euro) le 10 juin 2016. Dix métropoles accueillent les équipes et les supporters de 24 nations européennes, un record de participants pour la compétition continentale. La France s'offre une bouffée d'oxygène bienvenue lors d'un mois de fête, de rencontres et de partages. L'excellent parcours des Bleus de Didier Deschamps a prolongé la fête jusqu'à la finale, un mois plus tard. ",
+      video: {
+        webm: "./video/euro.mp4.webm",
+        mp4: "./video/euro.mp4.mp4",
+        png: "./video/euro.mp4.png",
+      }
+    },
+    question: {
+      ask: "Combien de spectateurs étaient présents dans les tribunes des 10 stades de l’Euro ?",
+      answers: [
+        { text: "Moins de deux millions", win: false},
+        { text: "Plus de deux millions", win: true}
       ],
     }
   },
