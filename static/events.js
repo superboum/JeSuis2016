@@ -63,7 +63,7 @@ window.content = [
     slug: "prince",
     article: {
       title: "Prince : disparition du kid de Minneapolis",
-      date: "27/04",
+      date: "21/04",
       text: "Prince, la voix de la génération funk-rock, est décédé le 21 avril 2016. “The king of love” comme il aimait à s’appeler a été retrouvé inerte à l’âge de 57 ans dans sa résidence du Minnesota. Prince Rogers Nelson, de son vrai nom, a succombé, à une overdose de Fentanyl, un opiacé de synthèse. Artiste à succès ayant vendu 80 millions d’albums, il  laisse des millions de fans orphelins derrière lui.",
       video: {
         webm: "./video/Prince.mp4.webm",
